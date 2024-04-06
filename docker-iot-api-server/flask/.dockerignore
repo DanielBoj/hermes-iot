@@ -1,0 +1,4 @@
+./Pipfile
+./Pipefile.lock
+./__pycache__/
+./.idea/

@@ -1,0 +1,33 @@
+version: '3.7'
+
+name: iot-api-server
+
+services:
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    restart: unless-stopped
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+    # Before starting the nginx server, we remove the default.conf 
+    command: /bin/bash -c "cd /etc/nginx/conf.d && if [ -f default.conf ]; then rm default.conf; fi && nginx -g 'daemon off;'"
+
+    ports:
+      - "80:80"
+    depends_on:
+      - flask
+
+  flask:
+    build: flask
+    container_name: flask
+    restart: unless-stopped
+    stop_signal: SIGINT
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - APP_NAME=TestApp
+    expose:
+      - 5000
+    ports:
+      - "5000:5000"

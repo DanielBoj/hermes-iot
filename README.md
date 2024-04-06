@@ -10,6 +10,6 @@ El proyecto está dividido en dos directorios principales:
 Acceder al directorio /docker-iot-api-service y ejecutar --> docker compose up
 
 ## Equipo
-Iker López Iribas [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](ilopezir@uoc.edu)
-Damià Belles Sampera [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](dbelles@uoc.edu)
-Daniel Boj Cobos [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](dboj@uoc.edu)              
+Iker López Iribas [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](ilopezir@uoc.edu) </br>
+Damià Belles Sampera [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](dbelles@uoc.edu) </br>
+Daniel Boj Cobos [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](dboj@uoc.edu) </br>              

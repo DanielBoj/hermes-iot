@@ -1,0 +1,63 @@
+# Node-Red compose file
+version: '3.8'
+
+name: hermes-iot-sensor-environment
+
+services:
+
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: hermes-mosquitto
+    hostname: mosquitto
+    environment:
+      - TZ=Europe/Madrid
+    ports:
+      - "1883:1883"
+      - "8083:8083"
+    volumes:
+      - ./mosquitto/mosquitto-data:/mosquitto/data
+      - ./mosquitto/mosquitto-log:/mosquitto/log
+      - ./mosquitto/mosquitto-conf:/mosquitto/config
+    restart: unless-stopped
+    networks:
+      - hermes
+
+  nodered:
+    image: nodered/node-red:latest
+    container_name: hermes-nodered
+    hostname: nodered
+    environment:
+      - TZ=Europe/Madrid
+    ports:
+      - 1880:1880
+      - 6880:6880
+    volumes:
+      - ./node-red-data:/data
+    restart: unless-stopped
+    depends_on:
+      - mosquitto
+    networks:
+      - hermes
+
+  sensor-sim:
+    build: ./sensor-sim
+    container_name: hermes-sensor-sim
+    volumes:
+      - ./sensor-sim/app:/app
+    environment:
+      - MQTT_USERNAME=root
+      - MQTT_PASSWORD=hermes_IoT
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+    depends_on:
+      - mosquitto
+      - nodered
+    
+    networks:
+      - hermes
+
+networks:
+  hermes:
+    driver: bridge
+    external: true
+    name: hermes

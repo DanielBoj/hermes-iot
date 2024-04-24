@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.8'
 
 name: iot-api-server
 
@@ -7,16 +7,18 @@ services:
   nginx:
     image: nginx:latest
     container_name: nginx
+    hostname: nginx
     restart: unless-stopped
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
     # Before starting the nginx server, we remove the default.conf 
     command: /bin/bash -c "cd /etc/nginx/conf.d && if [ -f default.conf ]; then rm default.conf; fi && nginx -g 'daemon off;'"
-
     ports:
       - "80:80"
     depends_on:
       - flask
+    networks:
+      - hermes
 
   flask:
     build: flask
@@ -31,3 +33,11 @@ services:
       - 5000
     ports:
       - "5000:5000"
+    networks:
+      - hermes
+
+networks:
+  hermes:
+    driver: bridge
+    external: true
+    name: hermes

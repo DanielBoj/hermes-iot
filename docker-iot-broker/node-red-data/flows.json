@@ -1,0 +1,766 @@
+[
+    {
+        "id": "2122b7cb7ac3f651",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5d6c88adcc7a8976",
+        "type": "mqtt-broker",
+        "name": "hermes-mosquitto",
+        "broker": "mosquitto",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1951d788747c1175",
+        "type": "ui_tab",
+        "name": "Pond Sensors",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2bcd4338c5a6d3c0",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9f6c1b887ce24874",
+        "type": "ui_group",
+        "name": "Pond Sensors",
+        "tab": "1951d788747c1175",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "522cb2be1ed52367",
+        "type": "ui_group",
+        "name": "Pond Sensors Records",
+        "tab": "1951d788747c1175",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9eac648ff468983f",
+        "type": "mqtt in",
+        "z": "2122b7cb7ac3f651",
+        "name": "pond-temp-sensor",
+        "topic": "temperature",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5d6c88adcc7a8976",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 440,
+        "wires": [
+            [
+                "da64dc206e331e10",
+                "0ab0811529a8afca",
+                "e49070f938190fb3",
+                "24c733fa86b6b197"
+            ]
+        ]
+    },
+    {
+        "id": "d7f36f6fc1e8d7b2",
+        "type": "http request",
+        "z": "2122b7cb7ac3f651",
+        "d": true,
+        "name": "backend-api-request",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://nginx/api/sensors/add_data",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Content-Type",
+                "keyValue": "",
+                "valueType": "application/json",
+                "valueValue": ""
+            },
+            {
+                "keyType": "Cache-Control",
+                "keyValue": "",
+                "valueType": "no-cache",
+                "valueValue": ""
+            }
+        ],
+        "x": 960,
+        "y": 680,
+        "wires": [
+            [
+                "6da6596eb0489f24"
+            ]
+        ]
+    },
+    {
+        "id": "da64dc206e331e10",
+        "type": "function",
+        "z": "2122b7cb7ac3f651",
+        "name": "temp-parse-to-json",
+        "func": "var payload = msg.payload.toString()\nvar formatedPayload = {\n    \"sensor_id\": \"temp-1\",\n    \"sensor_type\": \"temperature\",\n    \"sensor_value\": parseFloat(payload),\n    \"timestamp\": Math.floor(Date.now() / 1000)\n}\nmsg.payload = formatedPayload\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 440,
+        "wires": [
+            [
+                "d7f36f6fc1e8d7b2"
+            ]
+        ]
+    },
+    {
+        "id": "6da6596eb0489f24",
+        "type": "debug",
+        "z": "2122b7cb7ac3f651",
+        "name": "req-debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1170,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "a02c8e113ed454f5",
+        "type": "debug",
+        "z": "2122b7cb7ac3f651",
+        "name": "object",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "23e0d974f398026c",
+        "type": "mqtt in",
+        "z": "2122b7cb7ac3f651",
+        "name": "pond-humidity-sensor",
+        "topic": "humidity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5d6c88adcc7a8976",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 320,
+        "y": 540,
+        "wires": [
+            [
+                "346db420ab51e678",
+                "79840d976b68e65f",
+                "cfa783b1c225649d"
+            ]
+        ]
+    },
+    {
+        "id": "346db420ab51e678",
+        "type": "function",
+        "z": "2122b7cb7ac3f651",
+        "name": "humd-parse-to-json",
+        "func": "var payload = msg.payload.toString()\nvar formatedPayload = {\n    \"sensor_id\": \"hum-1\",\n    \"sensor_type\": \"humidity\",\n    \"sensor_value\": parseFloat(payload),\n    \"timestamp\": Math.floor(Date.now() / 1000)\n}\nmsg.payload = formatedPayload\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 540,
+        "wires": [
+            [
+                "d7f36f6fc1e8d7b2"
+            ]
+        ]
+    },
+    {
+        "id": "5fe0aceda0c269cd",
+        "type": "mqtt in",
+        "z": "2122b7cb7ac3f651",
+        "name": "pond-pressure-sensor",
+        "topic": "pressure",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5d6c88adcc7a8976",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 320,
+        "y": 620,
+        "wires": [
+            [
+                "3a576b0971268c22",
+                "13a8f801d01c948e",
+                "e0cee2c021aa1327"
+            ]
+        ]
+    },
+    {
+        "id": "3a576b0971268c22",
+        "type": "function",
+        "z": "2122b7cb7ac3f651",
+        "name": "pressure-parse-to-json",
+        "func": "var payload = msg.payload.toString()\nvar formatedPayload = {\n    \"sensor_id\": \"press-1\",\n    \"sensor_type\": \"pressure\",\n    \"sensor_value\": parseFloat(payload),\n    \"timestamp\": Math.floor(Date.now() / 1000)\n}\nmsg.payload = formatedPayload\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 620,
+        "wires": [
+            [
+                "d7f36f6fc1e8d7b2",
+                "a02c8e113ed454f5"
+            ]
+        ]
+    },
+    {
+        "id": "d834a030e283318f",
+        "type": "mqtt in",
+        "z": "2122b7cb7ac3f651",
+        "name": "pond-water-ph-sensor",
+        "topic": "ph",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5d6c88adcc7a8976",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 320,
+        "y": 700,
+        "wires": [
+            [
+                "7ae6f7d505c587b0",
+                "18990979dc383e95",
+                "6bf593673e14fe4f"
+            ]
+        ]
+    },
+    {
+        "id": "7ae6f7d505c587b0",
+        "type": "function",
+        "z": "2122b7cb7ac3f651",
+        "name": "water-ph-parse-to-json",
+        "func": "var payload = msg.payload.toString()\nvar formatedPayload = {\n    \"sensor_id\": \"ph-1\",\n    \"sensor_type\": \"ph\",\n    \"sensor_value\": parseFloat(payload),\n    \"timestamp\": Math.floor(Date.now() / 1000)\n}\nmsg.payload = formatedPayload\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 700,
+        "wires": [
+            [
+                "d7f36f6fc1e8d7b2"
+            ]
+        ]
+    },
+    {
+        "id": "c4b65926a39b1424",
+        "type": "mqtt in",
+        "z": "2122b7cb7ac3f651",
+        "name": "pond-light-sensor",
+        "topic": "lieght",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5d6c88adcc7a8976",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 780,
+        "wires": [
+            [
+                "f909ef8ebe126007"
+            ]
+        ]
+    },
+    {
+        "id": "f909ef8ebe126007",
+        "type": "function",
+        "z": "2122b7cb7ac3f651",
+        "name": "light-parse-to-json",
+        "func": "var payload = msg.payload.toString()\nvar formatedPayload = {\n    \"sensor_id\": \"light-1\",\n    \"sensor_type\": \"light\",\n    \"sensor_value\": parseFloat(payload),\n    \"timestamp\": Math.floor(Date.now() / 1000)\n}\nmsg.payload = formatedPayload\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 780,
+        "wires": [
+            [
+                "d7f36f6fc1e8d7b2"
+            ]
+        ]
+    },
+    {
+        "id": "e49070f938190fb3",
+        "type": "ui_gauge",
+        "z": "2122b7cb7ac3f651",
+        "name": "Pond Temperature",
+        "group": "9f6c1b887ce24874",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Pond Temperature",
+        "label": "ºC",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "20",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "79840d976b68e65f",
+        "type": "ui_chart",
+        "z": "2122b7cb7ac3f651",
+        "name": "",
+        "group": "522cb2be1ed52367",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Pond Humidity Record",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1140,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "13a8f801d01c948e",
+        "type": "ui_gauge",
+        "z": "2122b7cb7ac3f651",
+        "name": "Pond Pressure",
+        "group": "9f6c1b887ce24874",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Pond Pressure",
+        "label": "hPa",
+        "format": "",
+        "min": "950",
+        "max": "1050",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1005",
+        "seg2": "1030",
+        "diff": false,
+        "className": "",
+        "x": 840,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "18990979dc383e95",
+        "type": "ui_gauge",
+        "z": "2122b7cb7ac3f651",
+        "name": "Pond Water Ph",
+        "group": "9f6c1b887ce24874",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Pond Water Ph",
+        "label": "pH",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "15",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "5",
+        "seg2": "7",
+        "diff": false,
+        "className": "",
+        "x": 840,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "0ab0811529a8afca",
+        "type": "trigger",
+        "z": "2122b7cb7ac3f651",
+        "name": "",
+        "op1": "",
+        "op2": "",
+        "op1type": "date",
+        "op2type": "nul",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 530,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cfa783b1c225649d",
+        "type": "ui_gauge",
+        "z": "2122b7cb7ac3f651",
+        "name": "Pond humidity",
+        "group": "9f6c1b887ce24874",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Pond Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "40",
+        "seg2": "80",
+        "diff": false,
+        "className": "",
+        "x": 840,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "24c733fa86b6b197",
+        "type": "ui_chart",
+        "z": "2122b7cb7ac3f651",
+        "name": "Pond Temperature Record",
+        "group": "522cb2be1ed52367",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Pond Temperature Record",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1160,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e0cee2c021aa1327",
+        "type": "ui_chart",
+        "z": "2122b7cb7ac3f651",
+        "name": "Pond Pressure Record",
+        "group": "522cb2be1ed52367",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Pond Pressure Record",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1140,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6bf593673e14fe4f",
+        "type": "ui_chart",
+        "z": "2122b7cb7ac3f651",
+        "name": "Pond Water pH Record",
+        "group": "522cb2be1ed52367",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "Pond Water pH Record",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1150,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    }
+]

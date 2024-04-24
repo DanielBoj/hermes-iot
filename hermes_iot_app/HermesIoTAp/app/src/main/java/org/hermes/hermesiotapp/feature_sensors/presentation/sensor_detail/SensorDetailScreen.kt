@@ -14,7 +14,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import org.hermes.hermesiotapp.feature_sensors.presentation.sensor_detail.component.GraphicItem
 import org.hermes.hermesiotapp.feature_sensors.presentation.sensor_detail.component.SensorDetailItem
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.ZoneId
+import java.time.ZoneOffset
 
 @Composable
 fun SensorDetailScreen(
@@ -54,6 +59,14 @@ fun SensorDetailScreen(
 
                 Text(text = state.sensorRecord.first().name, style = MaterialTheme.typography.headlineLarge)
 
+                Spacer(modifier = Modifier.height(8.dp))
+
+                val x = state.sensorRecord.map { sensor ->
+                    getMinuteOfTheDay(sensor.timestamp).toLong()
+                }
+                val y = state.sensorRecord.map { sensor -> sensor.value }
+                GraphicItem(x, y)
+
                 HorizontalDivider()
 
                 LazyColumn(modifier = Modifier
@@ -81,4 +94,11 @@ fun SensorDetailScreen(
             }
         }
     }
+}
+
+private fun getMinuteOfTheDay(timestamp: Long): Int {
+
+    val time = LocalDateTime.ofEpochSecond(timestamp, 0, ZoneOffset.UTC)
+
+    return time.hour * 3600 + time.minute * 60 + time.second
 }

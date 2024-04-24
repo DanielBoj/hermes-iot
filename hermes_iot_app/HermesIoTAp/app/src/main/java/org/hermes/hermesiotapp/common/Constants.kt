@@ -11,4 +11,5 @@ object Constants {
     const val BOTANICAL_GARDEN_LAT = 41.36223064681791
 
     const val BOTANICAL_GARDEN_LONG = 2.1574645595413258
+
 }

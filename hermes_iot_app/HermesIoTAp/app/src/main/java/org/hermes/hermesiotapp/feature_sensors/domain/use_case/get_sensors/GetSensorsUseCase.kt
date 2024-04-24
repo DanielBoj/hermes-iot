@@ -19,12 +19,11 @@ class GetSensorsUseCase @Inject constructor(
             emit(Resource.Loading())
 
             val sensors = repository.getSensors()
+                .distinctBy { it.sensorId }
                 .sortedBy { it.sensorId }
                 .map {sensorDto -> sensorDto.toSensor() }
 
-            val filteredSensors = sensors.distinctBy { it.id }
-
-            emit(Resource.Success(filteredSensors))
+            emit(Resource.Success(sensors))
         } catch (e: HttpException) {
             emit(Resource.Error(e.localizedMessage ?: "An unexpected error occurred"))
         } catch (e: IOException) {

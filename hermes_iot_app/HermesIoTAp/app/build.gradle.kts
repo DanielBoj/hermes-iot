@@ -107,4 +107,15 @@ dependencies {
     // Location Services
     implementation("com.google.android.gms:play-services-location:21.2.0")
 
+    //Vico -> Data graphics
+    // For Jetpack Compose.
+    implementation("com.patrykandpatrick.vico:compose:2.0.0-alpha.16")
+    // For `compose`. Creates a `ChartStyle` based on an M2 Material Theme.
+    implementation("com.patrykandpatrick.vico:compose-m2:2.0.0-alpha.16")
+    // For `compose`. Creates a `ChartStyle` based on an M3 Material Theme.
+    implementation("com.patrykandpatrick.vico:compose-m3:2.0.0-alpha.16")
+    // Houses the core logic for charts and other elements. Included in all other modules.
+    implementation("com.patrykandpatrick.vico:core:2.0.0-alpha.16")
+    // For the view system.
+    implementation("com.patrykandpatrick.vico:views:2.0.0-alpha.16")
 }

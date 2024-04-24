@@ -11,8 +11,10 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import org.hermes.hermesiotapp.common.Constants
 import org.hermes.hermesiotapp.feature_sensors.domain.use_case.get_sensor.GetSensorUseCase
+import org.hermes.hermesiotapp.feature_sensors.domain.util.DataRefresher
 import org.hermes.hermesiotapp.feature_sensors.domain.util.Resource
 import javax.inject.Inject
+import kotlin.time.Duration.Companion.seconds
 
 @HiltViewModel
 class SensorDetailViewModel @Inject constructor(
@@ -23,11 +25,25 @@ class SensorDetailViewModel @Inject constructor(
     private val _state = mutableStateOf(SensorDetailState())
     val state: State<SensorDetailState> get() = _state
 
+    private val job = DataRefresher(
+        refreshInterval = 15.seconds,
+        scope = viewModelScope,
+        onRefresh = { savedState.get<String>(Constants.PARAM_SENSOR_ID)?.let { sensorId -> getSensor(sensorId) } }
+    ).invoke()
+
+
     init {
         savedState.get<String>(Constants.PARAM_SENSOR_ID)?.let { sensorId ->
             getSensor(sensorId)
-            Log.d("SensorDetailViewModel", "init called")
+            Log.d("SensorDetailViewModel", "Fetching data for sensor: $sensorId")
         }
+
+        job.start()
+    }
+
+    override fun onCleared() {
+        super.onCleared()
+        job.cancel()
     }
 
     private fun getSensor(sensorId: String) {

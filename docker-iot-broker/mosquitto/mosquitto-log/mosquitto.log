@@ -12083,3 +12083,2139 @@
 1713972588: Sending UNSUBACK to nodered_d3db599166769b01
 1713972588: mosquitto version 2.0.18 terminating
 1713972588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713975434: mosquitto version 2.0.18 starting
+1713975434: Config loaded from /mosquitto/config/mosquitto.conf.
+1713975434: Opening ipv4 listen socket on port 1883.
+1713975434: Opening ipv6 listen socket on port 1883.
+1713975434: Opening ipv4 listen socket on port 9001.
+1713975434: Opening ipv6 listen socket on port 9001.
+1713975434: Opening websockets listen socket on port 8083.
+1713975434: mosquitto version 2.0.18 running
+1713975475: New connection from 192.168.192.3:60988 on port 1883.
+1713975475: New client connected from 192.168.192.3:60988 as nodered_6d656b8fd64cf378 (p2, c1, k60, u'root').
+1713975475: No will message specified.
+1713975475: Sending CONNACK to nodered_6d656b8fd64cf378 (0, 0)
+1713975475: Received SUBSCRIBE from nodered_6d656b8fd64cf378
+1713975475: 	temperature (QoS 2)
+1713975475: nodered_6d656b8fd64cf378 2 temperature
+1713975475: Sending SUBACK to nodered_6d656b8fd64cf378
+1713975475: Received SUBSCRIBE from nodered_6d656b8fd64cf378
+1713975475: 	humidity (QoS 2)
+1713975475: nodered_6d656b8fd64cf378 2 humidity
+1713975475: Sending SUBACK to nodered_6d656b8fd64cf378
+1713975475: Received SUBSCRIBE from nodered_6d656b8fd64cf378
+1713975475: 	pressure (QoS 2)
+1713975475: nodered_6d656b8fd64cf378 2 pressure
+1713975475: Sending SUBACK to nodered_6d656b8fd64cf378
+1713975475: Received SUBSCRIBE from nodered_6d656b8fd64cf378
+1713975475: 	ph (QoS 2)
+1713975475: nodered_6d656b8fd64cf378 2 ph
+1713975475: Sending SUBACK to nodered_6d656b8fd64cf378
+1713975475: Received SUBSCRIBE from nodered_6d656b8fd64cf378
+1713975475: 	lieght (QoS 2)
+1713975475: nodered_6d656b8fd64cf378 2 lieght
+1713975475: Sending SUBACK to nodered_6d656b8fd64cf378
+1713975535: Received PINGREQ from nodered_6d656b8fd64cf378
+1713975535: Sending PINGRESP to nodered_6d656b8fd64cf378
+1713975557: Received UNSUBSCRIBE from nodered_6d656b8fd64cf378
+1713975557: 	temperature
+1713975557: nodered_6d656b8fd64cf378 temperature
+1713975557: Sending UNSUBACK to nodered_6d656b8fd64cf378
+1713975557: Received UNSUBSCRIBE from nodered_6d656b8fd64cf378
+1713975557: 	humidity
+1713975557: nodered_6d656b8fd64cf378 humidity
+1713975557: Sending UNSUBACK to nodered_6d656b8fd64cf378
+1713975557: Received UNSUBSCRIBE from nodered_6d656b8fd64cf378
+1713975557: 	pressure
+1713975557: nodered_6d656b8fd64cf378 pressure
+1713975557: Sending UNSUBACK to nodered_6d656b8fd64cf378
+1713975557: Received UNSUBSCRIBE from nodered_6d656b8fd64cf378
+1713975557: 	ph
+1713975557: nodered_6d656b8fd64cf378 ph
+1713975557: Sending UNSUBACK to nodered_6d656b8fd64cf378
+1713975557: Received UNSUBSCRIBE from nodered_6d656b8fd64cf378
+1713975557: 	lieght
+1713975557: nodered_6d656b8fd64cf378 lieght
+1713975557: Sending UNSUBACK to nodered_6d656b8fd64cf378
+1713975557: Received DISCONNECT from nodered_6d656b8fd64cf378
+1713975557: Client nodered_6d656b8fd64cf378 disconnected.
+1713975557: New connection from 192.168.192.3:59892 on port 1883.
+1713975557: New client connected from 192.168.192.3:59892 as nodered_543e722e7321e215 (p2, c1, k60, u'root').
+1713975557: No will message specified.
+1713975557: Sending CONNACK to nodered_543e722e7321e215 (0, 0)
+1713975557: Received SUBSCRIBE from nodered_543e722e7321e215
+1713975557: 	temperature (QoS 2)
+1713975557: nodered_543e722e7321e215 2 temperature
+1713975557: Sending SUBACK to nodered_543e722e7321e215
+1713975557: Received SUBSCRIBE from nodered_543e722e7321e215
+1713975557: 	humidity (QoS 2)
+1713975557: nodered_543e722e7321e215 2 humidity
+1713975557: Sending SUBACK to nodered_543e722e7321e215
+1713975557: Received SUBSCRIBE from nodered_543e722e7321e215
+1713975557: 	pressure (QoS 2)
+1713975557: nodered_543e722e7321e215 2 pressure
+1713975557: Sending SUBACK to nodered_543e722e7321e215
+1713975557: Received SUBSCRIBE from nodered_543e722e7321e215
+1713975557: 	ph (QoS 2)
+1713975557: nodered_543e722e7321e215 2 ph
+1713975557: Sending SUBACK to nodered_543e722e7321e215
+1713975557: Received SUBSCRIBE from nodered_543e722e7321e215
+1713975557: 	lieght (QoS 2)
+1713975557: nodered_543e722e7321e215 2 lieght
+1713975557: Sending SUBACK to nodered_543e722e7321e215
+1713975617: Received PINGREQ from nodered_543e722e7321e215
+1713975617: Sending PINGRESP to nodered_543e722e7321e215
+1713975656: Received UNSUBSCRIBE from nodered_543e722e7321e215
+1713975656: 	temperature
+1713975656: nodered_543e722e7321e215 temperature
+1713975656: Sending UNSUBACK to nodered_543e722e7321e215
+1713975656: Received UNSUBSCRIBE from nodered_543e722e7321e215
+1713975656: 	humidity
+1713975656: nodered_543e722e7321e215 humidity
+1713975656: Sending UNSUBACK to nodered_543e722e7321e215
+1713975656: Received UNSUBSCRIBE from nodered_543e722e7321e215
+1713975656: 	pressure
+1713975656: nodered_543e722e7321e215 pressure
+1713975656: Sending UNSUBACK to nodered_543e722e7321e215
+1713975656: Received UNSUBSCRIBE from nodered_543e722e7321e215
+1713975656: 	ph
+1713975656: nodered_543e722e7321e215 ph
+1713975656: Sending UNSUBACK to nodered_543e722e7321e215
+1713975656: Received UNSUBSCRIBE from nodered_543e722e7321e215
+1713975656: 	lieght
+1713975656: nodered_543e722e7321e215 lieght
+1713975656: Sending UNSUBACK to nodered_543e722e7321e215
+1713975656: Received DISCONNECT from nodered_543e722e7321e215
+1713975656: Client nodered_543e722e7321e215 disconnected.
+1713975656: New connection from 192.168.192.3:49630 on port 1883.
+1713975656: New client connected from 192.168.192.3:49630 as nodered_c5f9e015413b245c (p2, c1, k60, u'root').
+1713975656: No will message specified.
+1713975656: Sending CONNACK to nodered_c5f9e015413b245c (0, 0)
+1713975656: Received SUBSCRIBE from nodered_c5f9e015413b245c
+1713975656: 	temperature (QoS 2)
+1713975656: nodered_c5f9e015413b245c 2 temperature
+1713975656: Sending SUBACK to nodered_c5f9e015413b245c
+1713975656: Received SUBSCRIBE from nodered_c5f9e015413b245c
+1713975656: 	humidity (QoS 2)
+1713975656: nodered_c5f9e015413b245c 2 humidity
+1713975656: Sending SUBACK to nodered_c5f9e015413b245c
+1713975656: Received SUBSCRIBE from nodered_c5f9e015413b245c
+1713975656: 	pressure (QoS 2)
+1713975656: nodered_c5f9e015413b245c 2 pressure
+1713975656: Sending SUBACK to nodered_c5f9e015413b245c
+1713975656: Received SUBSCRIBE from nodered_c5f9e015413b245c
+1713975656: 	ph (QoS 2)
+1713975656: nodered_c5f9e015413b245c 2 ph
+1713975656: Sending SUBACK to nodered_c5f9e015413b245c
+1713975656: Received SUBSCRIBE from nodered_c5f9e015413b245c
+1713975656: 	lieght (QoS 2)
+1713975656: nodered_c5f9e015413b245c 2 lieght
+1713975656: Sending SUBACK to nodered_c5f9e015413b245c
+1713975667: New connection from 192.168.192.4:59435 on port 1883.
+1713975667: New connection from 192.168.192.4:53437 on port 1883.
+1713975667: New connection from 192.168.192.4:60601 on port 1883.
+1713975667: New connection from 192.168.192.4:55787 on port 1883.
+1713975667: New connection from 192.168.192.4:56801 on port 1883.
+1713975667: New connection from 192.168.192.4:42155 on port 1883.
+1713975667: New client connected from 192.168.192.4:59435 as python-mqtt-pond-water-level-pub-1 (p2, c1, k60).
+1713975667: No will message specified.
+1713975667: Sending CONNACK to python-mqtt-pond-water-level-pub-1 (0, 0)
+1713975667: New client connected from 192.168.192.4:53437 as python-mqtt-pond-press-pub-1 (p2, c1, k60).
+1713975667: No will message specified.
+1713975667: Sending CONNACK to python-mqtt-pond-press-pub-1 (0, 0)
+1713975667: New client connected from 192.168.192.4:60601 as python-mqtt-pond-light-pub-1 (p2, c1, k60).
+1713975667: No will message specified.
+1713975667: Sending CONNACK to python-mqtt-pond-light-pub-1 (0, 0)
+1713975667: New client connected from 192.168.192.4:55787 as python-mqtt-pond-soilph-pub-1 (p2, c1, k60).
+1713975667: No will message specified.
+1713975667: Sending CONNACK to python-mqtt-pond-soilph-pub-1 (0, 0)
+1713975667: New client connected from 192.168.192.4:56801 as python-mqtt-pond-temp-pub-1 (p2, c1, k60).
+1713975667: No will message specified.
+1713975667: Sending CONNACK to python-mqtt-pond-temp-pub-1 (0, 0)
+1713975667: New client connected from 192.168.192.4:42155 as python-mqtt-pond-hum-pub-1 (p2, c1, k60).
+1713975667: No will message specified.
+1713975667: Sending CONNACK to python-mqtt-pond-hum-pub-1 (0, 0)
+1713975668: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m1, 'light', ... (8 bytes))
+1713975668: Sending PUBACK to python-mqtt-pond-light-pub-1 (m1, rc0)
+1713975668: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m1, 'pressure', ... (5 bytes))
+1713975668: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m1, 'pressure', ... (5 bytes))
+1713975668: Sending PUBACK to python-mqtt-pond-press-pub-1 (m1, rc0)
+1713975668: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m1, 'temperature', ... (4 bytes))
+1713975668: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m2, 'temperature', ... (4 bytes))
+1713975668: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m1, rc0)
+1713975668: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m1, 'ph', ... (3 bytes))
+1713975668: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m3, 'ph', ... (3 bytes))
+1713975668: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m1, rc0)
+1713975668: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m1, 'humidity', ... (5 bytes))
+1713975668: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m4, 'humidity', ... (5 bytes))
+1713975668: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m1, rc0)
+1713975668: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m1, 'water_level', ... (2 bytes))
+1713975668: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m1, rc0)
+1713975668: Received PUBACK from nodered_c5f9e015413b245c (Mid: 1, RC:0)
+1713975668: Received PUBACK from nodered_c5f9e015413b245c (Mid: 2, RC:0)
+1713975668: Received PUBACK from nodered_c5f9e015413b245c (Mid: 3, RC:0)
+1713975668: Received PUBACK from nodered_c5f9e015413b245c (Mid: 4, RC:0)
+1713975670: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m2, 'light', ... (8 bytes))
+1713975670: Sending PUBACK to python-mqtt-pond-light-pub-1 (m2, rc0)
+1713975670: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m2, 'ph', ... (4 bytes))
+1713975670: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m5, 'ph', ... (4 bytes))
+1713975670: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m2, rc0)
+1713975670: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m2, 'temperature', ... (5 bytes))
+1713975670: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m6, 'temperature', ... (5 bytes))
+1713975670: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m2, rc0)
+1713975670: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m2, 'pressure', ... (7 bytes))
+1713975670: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m7, 'pressure', ... (7 bytes))
+1713975670: Sending PUBACK to python-mqtt-pond-press-pub-1 (m2, rc0)
+1713975670: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m2, 'humidity', ... (4 bytes))
+1713975670: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m8, 'humidity', ... (4 bytes))
+1713975670: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m2, rc0)
+1713975670: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m2, 'water_level', ... (2 bytes))
+1713975670: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m2, rc0)
+1713975670: Received PUBACK from nodered_c5f9e015413b245c (Mid: 5, RC:0)
+1713975670: Received PUBACK from nodered_c5f9e015413b245c (Mid: 6, RC:0)
+1713975670: Received PUBACK from nodered_c5f9e015413b245c (Mid: 7, RC:0)
+1713975670: Received PUBACK from nodered_c5f9e015413b245c (Mid: 8, RC:0)
+1713975672: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m3, 'light', ... (8 bytes))
+1713975672: Sending PUBACK to python-mqtt-pond-light-pub-1 (m3, rc0)
+1713975672: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m3, 'temperature', ... (5 bytes))
+1713975672: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m9, 'temperature', ... (5 bytes))
+1713975672: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m3, rc0)
+1713975672: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m3, 'pressure', ... (6 bytes))
+1713975672: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m10, 'pressure', ... (6 bytes))
+1713975672: Sending PUBACK to python-mqtt-pond-press-pub-1 (m3, rc0)
+1713975672: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m3, 'water_level', ... (2 bytes))
+1713975672: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m3, rc0)
+1713975672: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m3, 'ph', ... (3 bytes))
+1713975672: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m11, 'ph', ... (3 bytes))
+1713975672: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m3, rc0)
+1713975672: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m3, 'humidity', ... (5 bytes))
+1713975672: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m12, 'humidity', ... (5 bytes))
+1713975672: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m3, rc0)
+1713975672: Received PUBACK from nodered_c5f9e015413b245c (Mid: 9, RC:0)
+1713975672: Received PUBACK from nodered_c5f9e015413b245c (Mid: 10, RC:0)
+1713975672: Received PUBACK from nodered_c5f9e015413b245c (Mid: 11, RC:0)
+1713975672: Received PUBACK from nodered_c5f9e015413b245c (Mid: 12, RC:0)
+1713975674: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m4, 'light', ... (8 bytes))
+1713975674: Sending PUBACK to python-mqtt-pond-light-pub-1 (m4, rc0)
+1713975674: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m4, 'temperature', ... (3 bytes))
+1713975674: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m13, 'temperature', ... (3 bytes))
+1713975674: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m4, rc0)
+1713975674: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m4, 'pressure', ... (7 bytes))
+1713975674: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m14, 'pressure', ... (7 bytes))
+1713975674: Sending PUBACK to python-mqtt-pond-press-pub-1 (m4, rc0)
+1713975674: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m4, 'water_level', ... (2 bytes))
+1713975674: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m4, rc0)
+1713975674: Received PUBACK from nodered_c5f9e015413b245c (Mid: 13, RC:0)
+1713975674: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m4, 'ph', ... (4 bytes))
+1713975674: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m15, 'ph', ... (4 bytes))
+1713975674: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m4, rc0)
+1713975674: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m4, 'humidity', ... (4 bytes))
+1713975674: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m16, 'humidity', ... (4 bytes))
+1713975674: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m4, rc0)
+1713975674: Received PUBACK from nodered_c5f9e015413b245c (Mid: 14, RC:0)
+1713975674: Received PUBACK from nodered_c5f9e015413b245c (Mid: 15, RC:0)
+1713975674: Received PUBACK from nodered_c5f9e015413b245c (Mid: 16, RC:0)
+1713975676: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m5, 'light', ... (7 bytes))
+1713975676: Sending PUBACK to python-mqtt-pond-light-pub-1 (m5, rc0)
+1713975676: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m5, 'temperature', ... (4 bytes))
+1713975676: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m17, 'temperature', ... (4 bytes))
+1713975676: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m5, rc0)
+1713975676: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m5, 'pressure', ... (6 bytes))
+1713975676: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m18, 'pressure', ... (6 bytes))
+1713975676: Sending PUBACK to python-mqtt-pond-press-pub-1 (m5, rc0)
+1713975676: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m5, 'water_level', ... (2 bytes))
+1713975676: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m5, rc0)
+1713975676: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m5, 'ph', ... (3 bytes))
+1713975676: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m19, 'ph', ... (3 bytes))
+1713975676: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m5, rc0)
+1713975676: Received PUBACK from nodered_c5f9e015413b245c (Mid: 17, RC:0)
+1713975676: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m5, 'humidity', ... (5 bytes))
+1713975676: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m20, 'humidity', ... (5 bytes))
+1713975676: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m5, rc0)
+1713975676: Received PUBACK from nodered_c5f9e015413b245c (Mid: 18, RC:0)
+1713975676: Received PUBACK from nodered_c5f9e015413b245c (Mid: 19, RC:0)
+1713975676: Received PUBACK from nodered_c5f9e015413b245c (Mid: 20, RC:0)
+1713975678: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m6, 'light', ... (8 bytes))
+1713975678: Sending PUBACK to python-mqtt-pond-light-pub-1 (m6, rc0)
+1713975678: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m6, 'temperature', ... (5 bytes))
+1713975678: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m21, 'temperature', ... (5 bytes))
+1713975678: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m6, rc0)
+1713975678: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m6, 'pressure', ... (7 bytes))
+1713975678: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m22, 'pressure', ... (7 bytes))
+1713975678: Sending PUBACK to python-mqtt-pond-press-pub-1 (m6, rc0)
+1713975678: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m6, 'water_level', ... (2 bytes))
+1713975678: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m6, rc0)
+1713975678: Received PUBACK from nodered_c5f9e015413b245c (Mid: 21, RC:0)
+1713975678: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m6, 'ph', ... (4 bytes))
+1713975678: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m23, 'ph', ... (4 bytes))
+1713975678: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m6, rc0)
+1713975678: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m6, 'humidity', ... (5 bytes))
+1713975678: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m24, 'humidity', ... (5 bytes))
+1713975678: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m6, rc0)
+1713975678: Received PUBACK from nodered_c5f9e015413b245c (Mid: 22, RC:0)
+1713975678: Received PUBACK from nodered_c5f9e015413b245c (Mid: 23, RC:0)
+1713975678: Received PUBACK from nodered_c5f9e015413b245c (Mid: 24, RC:0)
+1713975680: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m7, 'light', ... (8 bytes))
+1713975680: Sending PUBACK to python-mqtt-pond-light-pub-1 (m7, rc0)
+1713975680: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m7, 'temperature', ... (5 bytes))
+1713975680: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m25, 'temperature', ... (5 bytes))
+1713975680: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m7, rc0)
+1713975680: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m7, 'pressure', ... (6 bytes))
+1713975680: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m26, 'pressure', ... (6 bytes))
+1713975680: Sending PUBACK to python-mqtt-pond-press-pub-1 (m7, rc0)
+1713975680: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m7, 'water_level', ... (2 bytes))
+1713975680: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m7, rc0)
+1713975680: Received PUBACK from nodered_c5f9e015413b245c (Mid: 25, RC:0)
+1713975680: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m7, 'ph', ... (3 bytes))
+1713975680: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m27, 'ph', ... (3 bytes))
+1713975680: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m7, rc0)
+1713975680: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m7, 'humidity', ... (5 bytes))
+1713975680: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m28, 'humidity', ... (5 bytes))
+1713975680: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m7, rc0)
+1713975680: Received PUBACK from nodered_c5f9e015413b245c (Mid: 26, RC:0)
+1713975680: Received PUBACK from nodered_c5f9e015413b245c (Mid: 27, RC:0)
+1713975680: Received PUBACK from nodered_c5f9e015413b245c (Mid: 28, RC:0)
+1713975682: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m8, 'temperature', ... (5 bytes))
+1713975682: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m29, 'temperature', ... (5 bytes))
+1713975682: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m8, rc0)
+1713975682: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m8, 'light', ... (8 bytes))
+1713975682: Sending PUBACK to python-mqtt-pond-light-pub-1 (m8, rc0)
+1713975682: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m8, 'pressure', ... (6 bytes))
+1713975682: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m30, 'pressure', ... (6 bytes))
+1713975682: Sending PUBACK to python-mqtt-pond-press-pub-1 (m8, rc0)
+1713975682: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m8, 'water_level', ... (2 bytes))
+1713975682: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m8, rc0)
+1713975682: Received PUBACK from nodered_c5f9e015413b245c (Mid: 29, RC:0)
+1713975682: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m8, 'ph', ... (3 bytes))
+1713975682: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m31, 'ph', ... (3 bytes))
+1713975682: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m8, rc0)
+1713975682: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m8, 'humidity', ... (5 bytes))
+1713975682: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m32, 'humidity', ... (5 bytes))
+1713975682: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m8, rc0)
+1713975682: Received PUBACK from nodered_c5f9e015413b245c (Mid: 30, RC:0)
+1713975682: Received PUBACK from nodered_c5f9e015413b245c (Mid: 31, RC:0)
+1713975682: Received PUBACK from nodered_c5f9e015413b245c (Mid: 32, RC:0)
+1713975684: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m9, 'pressure', ... (6 bytes))
+1713975684: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m33, 'pressure', ... (6 bytes))
+1713975684: Sending PUBACK to python-mqtt-pond-press-pub-1 (m9, rc0)
+1713975684: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m9, 'light', ... (8 bytes))
+1713975684: Sending PUBACK to python-mqtt-pond-light-pub-1 (m9, rc0)
+1713975684: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m9, 'temperature', ... (5 bytes))
+1713975684: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m34, 'temperature', ... (5 bytes))
+1713975684: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m9, rc0)
+1713975684: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m9, 'water_level', ... (2 bytes))
+1713975684: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m9, rc0)
+1713975684: Received PUBACK from nodered_c5f9e015413b245c (Mid: 33, RC:0)
+1713975684: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m9, 'ph', ... (3 bytes))
+1713975684: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m35, 'ph', ... (3 bytes))
+1713975684: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m9, rc0)
+1713975684: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m9, 'humidity', ... (5 bytes))
+1713975684: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m36, 'humidity', ... (5 bytes))
+1713975684: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m9, rc0)
+1713975684: Received PUBACK from nodered_c5f9e015413b245c (Mid: 34, RC:0)
+1713975684: Received PUBACK from nodered_c5f9e015413b245c (Mid: 35, RC:0)
+1713975684: Received PUBACK from nodered_c5f9e015413b245c (Mid: 36, RC:0)
+1713975686: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m10, 'light', ... (8 bytes))
+1713975686: Sending PUBACK to python-mqtt-pond-light-pub-1 (m10, rc0)
+1713975686: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m10, 'temperature', ... (5 bytes))
+1713975686: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m37, 'temperature', ... (5 bytes))
+1713975686: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m10, rc0)
+1713975686: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m10, 'pressure', ... (6 bytes))
+1713975686: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m38, 'pressure', ... (6 bytes))
+1713975686: Sending PUBACK to python-mqtt-pond-press-pub-1 (m10, rc0)
+1713975686: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m10, 'water_level', ... (2 bytes))
+1713975686: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m10, rc0)
+1713975686: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m10, 'humidity', ... (3 bytes))
+1713975686: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m39, 'humidity', ... (3 bytes))
+1713975686: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m10, rc0)
+1713975686: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m10, 'ph', ... (4 bytes))
+1713975686: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m40, 'ph', ... (4 bytes))
+1713975686: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m10, rc0)
+1713975686: Received PUBACK from nodered_c5f9e015413b245c (Mid: 37, RC:0)
+1713975686: Received PUBACK from nodered_c5f9e015413b245c (Mid: 38, RC:0)
+1713975686: Received PUBACK from nodered_c5f9e015413b245c (Mid: 39, RC:0)
+1713975686: Received PUBACK from nodered_c5f9e015413b245c (Mid: 40, RC:0)
+1713975688: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m11, 'water_level', ... (2 bytes))
+1713975688: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m11, rc0)
+1713975688: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m11, 'temperature', ... (5 bytes))
+1713975688: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m41, 'temperature', ... (5 bytes))
+1713975688: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m11, rc0)
+1713975688: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m11, 'pressure', ... (6 bytes))
+1713975688: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m42, 'pressure', ... (6 bytes))
+1713975688: Sending PUBACK to python-mqtt-pond-press-pub-1 (m11, rc0)
+1713975688: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m11, 'light', ... (8 bytes))
+1713975688: Sending PUBACK to python-mqtt-pond-light-pub-1 (m11, rc0)
+1713975688: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m11, 'ph', ... (4 bytes))
+1713975688: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m43, 'ph', ... (4 bytes))
+1713975688: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m11, rc0)
+1713975688: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m11, 'humidity', ... (5 bytes))
+1713975688: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m44, 'humidity', ... (5 bytes))
+1713975688: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m11, rc0)
+1713975688: Received PUBACK from nodered_c5f9e015413b245c (Mid: 41, RC:0)
+1713975688: Received PUBACK from nodered_c5f9e015413b245c (Mid: 42, RC:0)
+1713975688: Received PUBACK from nodered_c5f9e015413b245c (Mid: 43, RC:0)
+1713975688: Received PUBACK from nodered_c5f9e015413b245c (Mid: 44, RC:0)
+1713975690: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m12, 'water_level', ... (2 bytes))
+1713975690: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m12, rc0)
+1713975690: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m12, 'temperature', ... (5 bytes))
+1713975690: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m45, 'temperature', ... (5 bytes))
+1713975690: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m12, rc0)
+1713975690: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m12, 'pressure', ... (7 bytes))
+1713975690: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m46, 'pressure', ... (7 bytes))
+1713975690: Sending PUBACK to python-mqtt-pond-press-pub-1 (m12, rc0)
+1713975690: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m12, 'ph', ... (3 bytes))
+1713975690: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m47, 'ph', ... (3 bytes))
+1713975690: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m12, rc0)
+1713975690: Client python-mqtt-pond-temp-pub-1 closed its connection.
+1713975690: Client python-mqtt-pond-press-pub-1 closed its connection.
+1713975690: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m12, 'humidity', ... (5 bytes))
+1713975690: Sending PUBLISH to nodered_c5f9e015413b245c (d0, q1, r0, m48, 'humidity', ... (5 bytes))
+1713975690: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m12, rc0)
+1713975690: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m12, 'light', ... (8 bytes))
+1713975690: Sending PUBACK to python-mqtt-pond-light-pub-1 (m12, rc0)
+1713975690: Received PUBACK from nodered_c5f9e015413b245c (Mid: 45, RC:0)
+1713975690: Client python-mqtt-pond-water-level-pub-1 closed its connection.
+1713975690: Client python-mqtt-pond-hum-pub-1 closed its connection.
+1713975690: Client python-mqtt-pond-light-pub-1 closed its connection.
+1713975690: Received PUBACK from nodered_c5f9e015413b245c (Mid: 46, RC:0)
+1713975690: Client python-mqtt-pond-soilph-pub-1 closed its connection.
+1713975690: Received PUBACK from nodered_c5f9e015413b245c (Mid: 47, RC:0)
+1713975690: Received PUBACK from nodered_c5f9e015413b245c (Mid: 48, RC:0)
+1713975750: Received PINGREQ from nodered_c5f9e015413b245c
+1713975750: Sending PINGRESP to nodered_c5f9e015413b245c
+1713975810: Received PINGREQ from nodered_c5f9e015413b245c
+1713975810: Sending PINGRESP to nodered_c5f9e015413b245c
+1713975870: Received PINGREQ from nodered_c5f9e015413b245c
+1713975870: Sending PINGRESP to nodered_c5f9e015413b245c
+1713975930: Received PINGREQ from nodered_c5f9e015413b245c
+1713975930: Sending PINGRESP to nodered_c5f9e015413b245c
+1713975990: Received PINGREQ from nodered_c5f9e015413b245c
+1713975990: Sending PINGRESP to nodered_c5f9e015413b245c
+1713976050: Received PINGREQ from nodered_c5f9e015413b245c
+1713976050: Sending PINGRESP to nodered_c5f9e015413b245c
+1713976110: Received PINGREQ from nodered_c5f9e015413b245c
+1713976110: Sending PINGRESP to nodered_c5f9e015413b245c
+1713976116: Received UNSUBSCRIBE from nodered_c5f9e015413b245c
+1713976116: 	temperature
+1713976116: nodered_c5f9e015413b245c temperature
+1713976116: Sending UNSUBACK to nodered_c5f9e015413b245c
+1713976116: Received UNSUBSCRIBE from nodered_c5f9e015413b245c
+1713976116: 	humidity
+1713976116: nodered_c5f9e015413b245c humidity
+1713976116: Sending UNSUBACK to nodered_c5f9e015413b245c
+1713976116: Received UNSUBSCRIBE from nodered_c5f9e015413b245c
+1713976116: 	pressure
+1713976116: nodered_c5f9e015413b245c pressure
+1713976116: Sending UNSUBACK to nodered_c5f9e015413b245c
+1713976116: Received UNSUBSCRIBE from nodered_c5f9e015413b245c
+1713976116: 	ph
+1713976116: nodered_c5f9e015413b245c ph
+1713976116: Sending UNSUBACK to nodered_c5f9e015413b245c
+1713976116: Received UNSUBSCRIBE from nodered_c5f9e015413b245c
+1713976116: 	lieght
+1713976116: nodered_c5f9e015413b245c lieght
+1713976116: Sending UNSUBACK to nodered_c5f9e015413b245c
+1713976116: Received DISCONNECT from nodered_c5f9e015413b245c
+1713976116: Client nodered_c5f9e015413b245c disconnected.
+1713976116: New connection from 192.168.192.3:41754 on port 1883.
+1713976116: New client connected from 192.168.192.3:41754 as nodered_e964fdffe6e8f9bb (p2, c1, k60, u'root').
+1713976116: No will message specified.
+1713976116: Sending CONNACK to nodered_e964fdffe6e8f9bb (0, 0)
+1713976116: Received SUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713976116: 	temperature (QoS 2)
+1713976116: nodered_e964fdffe6e8f9bb 2 temperature
+1713976116: Sending SUBACK to nodered_e964fdffe6e8f9bb
+1713976116: Received SUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713976116: 	humidity (QoS 2)
+1713976116: nodered_e964fdffe6e8f9bb 2 humidity
+1713976116: Sending SUBACK to nodered_e964fdffe6e8f9bb
+1713976116: Received SUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713976116: 	pressure (QoS 2)
+1713976116: nodered_e964fdffe6e8f9bb 2 pressure
+1713976116: Sending SUBACK to nodered_e964fdffe6e8f9bb
+1713976116: Received SUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713976116: 	ph (QoS 2)
+1713976116: nodered_e964fdffe6e8f9bb 2 ph
+1713976116: Sending SUBACK to nodered_e964fdffe6e8f9bb
+1713976116: Received SUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713976116: 	lieght (QoS 2)
+1713976116: nodered_e964fdffe6e8f9bb 2 lieght
+1713976116: Sending SUBACK to nodered_e964fdffe6e8f9bb
+1713976176: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976176: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976236: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976236: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976296: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976296: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976356: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976356: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976382: New connection from 192.168.192.6:53799 on port 1883.
+1713976382: New connection from 192.168.192.6:41351 on port 1883.
+1713976382: New connection from 192.168.192.6:53063 on port 1883.
+1713976382: New connection from 192.168.192.6:46033 on port 1883.
+1713976382: New connection from 192.168.192.6:39129 on port 1883.
+1713976382: New client connected from 192.168.192.6:41351 as python-mqtt-pond-light-pub-1 (p2, c1, k60).
+1713976382: No will message specified.
+1713976382: Sending CONNACK to python-mqtt-pond-light-pub-1 (0, 0)
+1713976382: New client connected from 192.168.192.6:53799 as python-mqtt-pond-water-level-pub-1 (p2, c1, k60).
+1713976382: No will message specified.
+1713976382: Sending CONNACK to python-mqtt-pond-water-level-pub-1 (0, 0)
+1713976382: New client connected from 192.168.192.6:46033 as python-mqtt-pond-hum-pub-1 (p2, c1, k60).
+1713976382: No will message specified.
+1713976382: Sending CONNACK to python-mqtt-pond-hum-pub-1 (0, 0)
+1713976382: New client connected from 192.168.192.6:53063 as python-mqtt-pond-temp-pub-1 (p2, c1, k60).
+1713976382: No will message specified.
+1713976382: Sending CONNACK to python-mqtt-pond-temp-pub-1 (0, 0)
+1713976382: New connection from 192.168.192.6:46355 on port 1883.
+1713976382: New client connected from 192.168.192.6:39129 as python-mqtt-pond-press-pub-1 (p2, c1, k60).
+1713976382: No will message specified.
+1713976382: Sending CONNACK to python-mqtt-pond-press-pub-1 (0, 0)
+1713976382: New client connected from 192.168.192.6:46355 as python-mqtt-pond-soilph-pub-1 (p2, c1, k60).
+1713976382: No will message specified.
+1713976382: Sending CONNACK to python-mqtt-pond-soilph-pub-1 (0, 0)
+1713976383: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m1, 'humidity', ... (4 bytes))
+1713976383: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m1, 'humidity', ... (4 bytes))
+1713976383: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m1, rc0)
+1713976383: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m1, 'light', ... (8 bytes))
+1713976383: Sending PUBACK to python-mqtt-pond-light-pub-1 (m1, rc0)
+1713976383: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m1, 'water_level', ... (2 bytes))
+1713976383: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m1, rc0)
+1713976383: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m1, 'temperature', ... (5 bytes))
+1713976383: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m2, 'temperature', ... (5 bytes))
+1713976383: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m1, rc0)
+1713976383: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 1, RC:0)
+1713976383: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m1, 'ph', ... (3 bytes))
+1713976383: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m3, 'ph', ... (3 bytes))
+1713976383: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m1, rc0)
+1713976383: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m1, 'pressure', ... (7 bytes))
+1713976383: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m4, 'pressure', ... (7 bytes))
+1713976383: Sending PUBACK to python-mqtt-pond-press-pub-1 (m1, rc0)
+1713976383: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 2, RC:0)
+1713976383: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 3, RC:0)
+1713976383: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 4, RC:0)
+1713976385: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m2, 'water_level', ... (2 bytes))
+1713976385: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m2, rc0)
+1713976385: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m2, 'humidity', ... (5 bytes))
+1713976385: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m5, 'humidity', ... (5 bytes))
+1713976385: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m2, rc0)
+1713976385: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m2, 'light', ... (7 bytes))
+1713976385: Sending PUBACK to python-mqtt-pond-light-pub-1 (m2, rc0)
+1713976385: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 5, RC:0)
+1713976385: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m2, 'temperature', ... (4 bytes))
+1713976385: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m6, 'temperature', ... (4 bytes))
+1713976385: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m2, rc0)
+1713976385: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m2, 'pressure', ... (7 bytes))
+1713976385: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m7, 'pressure', ... (7 bytes))
+1713976385: Sending PUBACK to python-mqtt-pond-press-pub-1 (m2, rc0)
+1713976385: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m2, 'ph', ... (3 bytes))
+1713976385: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m8, 'ph', ... (3 bytes))
+1713976385: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m2, rc0)
+1713976385: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 6, RC:0)
+1713976385: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 7, RC:0)
+1713976385: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 8, RC:0)
+1713976387: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m3, 'water_level', ... (2 bytes))
+1713976387: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m3, rc0)
+1713976387: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m3, 'humidity', ... (5 bytes))
+1713976387: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m9, 'humidity', ... (5 bytes))
+1713976387: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m3, rc0)
+1713976387: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m3, 'light', ... (8 bytes))
+1713976387: Sending PUBACK to python-mqtt-pond-light-pub-1 (m3, rc0)
+1713976387: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 9, RC:0)
+1713976387: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m3, 'temperature', ... (5 bytes))
+1713976387: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m10, 'temperature', ... (5 bytes))
+1713976387: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m3, rc0)
+1713976387: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m3, 'ph', ... (3 bytes))
+1713976387: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m11, 'ph', ... (3 bytes))
+1713976387: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m3, rc0)
+1713976387: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m3, 'pressure', ... (7 bytes))
+1713976387: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m12, 'pressure', ... (7 bytes))
+1713976387: Sending PUBACK to python-mqtt-pond-press-pub-1 (m3, rc0)
+1713976387: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 10, RC:0)
+1713976387: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 11, RC:0)
+1713976387: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 12, RC:0)
+1713976389: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m4, 'water_level', ... (2 bytes))
+1713976389: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m4, rc0)
+1713976389: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m4, 'humidity', ... (5 bytes))
+1713976389: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m13, 'humidity', ... (5 bytes))
+1713976389: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m4, rc0)
+1713976389: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m4, 'light', ... (8 bytes))
+1713976389: Sending PUBACK to python-mqtt-pond-light-pub-1 (m4, rc0)
+1713976389: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 13, RC:0)
+1713976389: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m4, 'temperature', ... (5 bytes))
+1713976389: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m14, 'temperature', ... (5 bytes))
+1713976389: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m4, rc0)
+1713976389: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m4, 'ph', ... (3 bytes))
+1713976389: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m15, 'ph', ... (3 bytes))
+1713976389: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m4, rc0)
+1713976389: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m4, 'pressure', ... (6 bytes))
+1713976389: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m16, 'pressure', ... (6 bytes))
+1713976389: Sending PUBACK to python-mqtt-pond-press-pub-1 (m4, rc0)
+1713976389: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 14, RC:0)
+1713976389: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 15, RC:0)
+1713976389: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 16, RC:0)
+1713976391: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m5, 'water_level', ... (2 bytes))
+1713976391: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m5, rc0)
+1713976391: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m5, 'humidity', ... (4 bytes))
+1713976391: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m17, 'humidity', ... (4 bytes))
+1713976391: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m5, rc0)
+1713976391: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m5, 'light', ... (7 bytes))
+1713976391: Sending PUBACK to python-mqtt-pond-light-pub-1 (m5, rc0)
+1713976391: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 17, RC:0)
+1713976391: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m5, 'temperature', ... (4 bytes))
+1713976391: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m18, 'temperature', ... (4 bytes))
+1713976391: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m5, rc0)
+1713976391: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m5, 'ph', ... (3 bytes))
+1713976391: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m19, 'ph', ... (3 bytes))
+1713976391: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m5, rc0)
+1713976391: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m5, 'pressure', ... (7 bytes))
+1713976391: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m20, 'pressure', ... (7 bytes))
+1713976391: Sending PUBACK to python-mqtt-pond-press-pub-1 (m5, rc0)
+1713976391: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 18, RC:0)
+1713976391: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 19, RC:0)
+1713976391: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 20, RC:0)
+1713976393: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m6, 'water_level', ... (2 bytes))
+1713976393: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m6, rc0)
+1713976393: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m6, 'humidity', ... (5 bytes))
+1713976393: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m21, 'humidity', ... (5 bytes))
+1713976393: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m6, rc0)
+1713976393: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m6, 'light', ... (8 bytes))
+1713976393: Sending PUBACK to python-mqtt-pond-light-pub-1 (m6, rc0)
+1713976393: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m6, 'temperature', ... (5 bytes))
+1713976393: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m22, 'temperature', ... (5 bytes))
+1713976393: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m6, rc0)
+1713976393: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 21, RC:0)
+1713976393: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m6, 'ph', ... (4 bytes))
+1713976393: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m23, 'ph', ... (4 bytes))
+1713976393: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m6, rc0)
+1713976393: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 22, RC:0)
+1713976393: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m6, 'pressure', ... (7 bytes))
+1713976393: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m24, 'pressure', ... (7 bytes))
+1713976393: Sending PUBACK to python-mqtt-pond-press-pub-1 (m6, rc0)
+1713976393: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 23, RC:0)
+1713976393: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 24, RC:0)
+1713976395: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m7, 'water_level', ... (2 bytes))
+1713976395: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m7, rc0)
+1713976395: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m7, 'humidity', ... (5 bytes))
+1713976395: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m25, 'humidity', ... (5 bytes))
+1713976395: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m7, rc0)
+1713976395: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m7, 'light', ... (8 bytes))
+1713976395: Sending PUBACK to python-mqtt-pond-light-pub-1 (m7, rc0)
+1713976395: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m7, 'temperature', ... (5 bytes))
+1713976395: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m26, 'temperature', ... (5 bytes))
+1713976395: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m7, rc0)
+1713976395: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 25, RC:0)
+1713976395: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m7, 'pressure', ... (7 bytes))
+1713976395: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m27, 'pressure', ... (7 bytes))
+1713976395: Sending PUBACK to python-mqtt-pond-press-pub-1 (m7, rc0)
+1713976395: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m7, 'ph', ... (4 bytes))
+1713976395: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m28, 'ph', ... (4 bytes))
+1713976395: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m7, rc0)
+1713976395: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 26, RC:0)
+1713976395: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 27, RC:0)
+1713976395: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 28, RC:0)
+1713976397: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m8, 'light', ... (8 bytes))
+1713976397: Sending PUBACK to python-mqtt-pond-light-pub-1 (m8, rc0)
+1713976397: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m8, 'water_level', ... (2 bytes))
+1713976397: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m8, rc0)
+1713976397: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m8, 'humidity', ... (5 bytes))
+1713976397: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m29, 'humidity', ... (5 bytes))
+1713976397: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m8, rc0)
+1713976397: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m8, 'temperature', ... (5 bytes))
+1713976397: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m30, 'temperature', ... (5 bytes))
+1713976397: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m8, rc0)
+1713976397: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m8, 'pressure', ... (7 bytes))
+1713976397: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m31, 'pressure', ... (7 bytes))
+1713976397: Sending PUBACK to python-mqtt-pond-press-pub-1 (m8, rc0)
+1713976397: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 29, RC:0)
+1713976397: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m8, 'ph', ... (3 bytes))
+1713976397: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m32, 'ph', ... (3 bytes))
+1713976397: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m8, rc0)
+1713976397: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 30, RC:0)
+1713976397: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 31, RC:0)
+1713976397: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 32, RC:0)
+1713976399: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m9, 'water_level', ... (2 bytes))
+1713976399: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m9, rc0)
+1713976399: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m9, 'humidity', ... (5 bytes))
+1713976399: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m33, 'humidity', ... (5 bytes))
+1713976399: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m9, rc0)
+1713976399: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m9, 'light', ... (7 bytes))
+1713976399: Sending PUBACK to python-mqtt-pond-light-pub-1 (m9, rc0)
+1713976399: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m9, 'temperature', ... (5 bytes))
+1713976399: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m34, 'temperature', ... (5 bytes))
+1713976399: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m9, rc0)
+1713976399: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m9, 'pressure', ... (5 bytes))
+1713976399: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m35, 'pressure', ... (5 bytes))
+1713976399: Sending PUBACK to python-mqtt-pond-press-pub-1 (m9, rc0)
+1713976399: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 33, RC:0)
+1713976399: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m9, 'ph', ... (3 bytes))
+1713976399: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m36, 'ph', ... (3 bytes))
+1713976399: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m9, rc0)
+1713976399: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 34, RC:0)
+1713976399: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 35, RC:0)
+1713976399: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 36, RC:0)
+1713976401: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m10, 'water_level', ... (2 bytes))
+1713976401: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m10, rc0)
+1713976401: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m10, 'humidity', ... (5 bytes))
+1713976401: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m37, 'humidity', ... (5 bytes))
+1713976401: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m10, rc0)
+1713976401: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m10, 'light', ... (8 bytes))
+1713976401: Sending PUBACK to python-mqtt-pond-light-pub-1 (m10, rc0)
+1713976401: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m10, 'temperature', ... (4 bytes))
+1713976401: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m38, 'temperature', ... (4 bytes))
+1713976401: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m10, rc0)
+1713976401: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m10, 'pressure', ... (6 bytes))
+1713976401: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m39, 'pressure', ... (6 bytes))
+1713976401: Sending PUBACK to python-mqtt-pond-press-pub-1 (m10, rc0)
+1713976401: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m10, 'ph', ... (3 bytes))
+1713976401: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m40, 'ph', ... (3 bytes))
+1713976401: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m10, rc0)
+1713976401: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 37, RC:0)
+1713976401: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 38, RC:0)
+1713976401: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 39, RC:0)
+1713976401: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 40, RC:0)
+1713976403: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m11, 'light', ... (8 bytes))
+1713976403: Sending PUBACK to python-mqtt-pond-light-pub-1 (m11, rc0)
+1713976403: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m11, 'humidity', ... (5 bytes))
+1713976403: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m41, 'humidity', ... (5 bytes))
+1713976403: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m11, rc0)
+1713976403: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m11, 'water_level', ... (2 bytes))
+1713976403: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m11, rc0)
+1713976403: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m11, 'temperature', ... (5 bytes))
+1713976403: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m42, 'temperature', ... (5 bytes))
+1713976403: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m11, rc0)
+1713976403: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 41, RC:0)
+1713976403: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m11, 'pressure', ... (7 bytes))
+1713976403: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m43, 'pressure', ... (7 bytes))
+1713976403: Sending PUBACK to python-mqtt-pond-press-pub-1 (m11, rc0)
+1713976403: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m11, 'ph', ... (4 bytes))
+1713976403: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m44, 'ph', ... (4 bytes))
+1713976403: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m11, rc0)
+1713976403: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 42, RC:0)
+1713976403: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 43, RC:0)
+1713976403: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 44, RC:0)
+1713976405: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m12, 'light', ... (8 bytes))
+1713976405: Sending PUBACK to python-mqtt-pond-light-pub-1 (m12, rc0)
+1713976405: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m12, 'humidity', ... (5 bytes))
+1713976405: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m45, 'humidity', ... (5 bytes))
+1713976405: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m12, rc0)
+1713976405: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m12, 'water_level', ... (2 bytes))
+1713976405: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m12, rc0)
+1713976405: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m12, 'temperature', ... (5 bytes))
+1713976405: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m46, 'temperature', ... (5 bytes))
+1713976405: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m12, rc0)
+1713976405: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m12, 'pressure', ... (7 bytes))
+1713976405: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m47, 'pressure', ... (7 bytes))
+1713976405: Sending PUBACK to python-mqtt-pond-press-pub-1 (m12, rc0)
+1713976405: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m12, 'ph', ... (3 bytes))
+1713976405: Sending PUBLISH to nodered_e964fdffe6e8f9bb (d0, q1, r0, m48, 'ph', ... (3 bytes))
+1713976405: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m12, rc0)
+1713976405: Client python-mqtt-pond-hum-pub-1 closed its connection.
+1713976405: Client python-mqtt-pond-water-level-pub-1 closed its connection.
+1713976405: Client python-mqtt-pond-temp-pub-1 closed its connection.
+1713976405: Client python-mqtt-pond-press-pub-1 closed its connection.
+1713976405: Client python-mqtt-pond-light-pub-1 closed its connection.
+1713976405: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 45, RC:0)
+1713976405: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 46, RC:0)
+1713976405: Client python-mqtt-pond-soilph-pub-1 closed its connection.
+1713976405: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 47, RC:0)
+1713976405: Received PUBACK from nodered_e964fdffe6e8f9bb (Mid: 48, RC:0)
+1713976465: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976465: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976525: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976525: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976585: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976585: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976645: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976645: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976705: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976705: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976765: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976765: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976825: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976825: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976885: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976885: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713976945: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713976945: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977005: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977005: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977065: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977065: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977125: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977125: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977185: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977185: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977235: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713977245: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977245: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977305: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977305: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977365: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977365: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977425: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977425: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977485: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977485: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977545: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977545: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977605: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977605: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977665: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977665: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977725: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977725: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977785: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977785: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977845: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977845: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977905: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977905: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713977965: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713977965: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978025: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978025: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978085: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978085: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978145: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978145: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978205: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978205: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978265: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978265: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978325: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978325: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978385: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978385: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978445: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978445: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978505: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978505: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978565: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978565: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978625: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978625: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978685: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978685: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978745: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978745: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978805: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978805: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978865: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978865: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978925: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978925: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978985: Received PINGREQ from nodered_e964fdffe6e8f9bb
+1713978985: Sending PINGRESP to nodered_e964fdffe6e8f9bb
+1713978995: Received UNSUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713978995: 	temperature
+1713978995: nodered_e964fdffe6e8f9bb temperature
+1713978995: Sending UNSUBACK to nodered_e964fdffe6e8f9bb
+1713978995: Received UNSUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713978995: 	humidity
+1713978995: nodered_e964fdffe6e8f9bb humidity
+1713978995: Sending UNSUBACK to nodered_e964fdffe6e8f9bb
+1713978995: Received UNSUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713978995: 	pressure
+1713978995: nodered_e964fdffe6e8f9bb pressure
+1713978995: Sending UNSUBACK to nodered_e964fdffe6e8f9bb
+1713978995: Received UNSUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713978995: 	ph
+1713978995: nodered_e964fdffe6e8f9bb ph
+1713978995: Sending UNSUBACK to nodered_e964fdffe6e8f9bb
+1713978995: Received UNSUBSCRIBE from nodered_e964fdffe6e8f9bb
+1713978995: 	lieght
+1713978995: nodered_e964fdffe6e8f9bb lieght
+1713978995: Sending UNSUBACK to nodered_e964fdffe6e8f9bb
+1713978995: Received DISCONNECT from nodered_e964fdffe6e8f9bb
+1713978995: Client nodered_e964fdffe6e8f9bb disconnected.
+1713978995: New connection from 192.168.192.3:54946 on port 1883.
+1713978995: New client connected from 192.168.192.3:54946 as nodered_8b98f5c02b984fd9 (p2, c1, k60, u'root').
+1713978995: No will message specified.
+1713978995: Sending CONNACK to nodered_8b98f5c02b984fd9 (0, 0)
+1713978995: Received SUBSCRIBE from nodered_8b98f5c02b984fd9
+1713978995: 	temperature (QoS 2)
+1713978995: nodered_8b98f5c02b984fd9 2 temperature
+1713978995: Sending SUBACK to nodered_8b98f5c02b984fd9
+1713978995: Received SUBSCRIBE from nodered_8b98f5c02b984fd9
+1713978995: 	humidity (QoS 2)
+1713978995: nodered_8b98f5c02b984fd9 2 humidity
+1713978995: Sending SUBACK to nodered_8b98f5c02b984fd9
+1713978995: Received SUBSCRIBE from nodered_8b98f5c02b984fd9
+1713978995: 	pressure (QoS 2)
+1713978995: nodered_8b98f5c02b984fd9 2 pressure
+1713978995: Sending SUBACK to nodered_8b98f5c02b984fd9
+1713978995: Received SUBSCRIBE from nodered_8b98f5c02b984fd9
+1713978995: 	ph (QoS 2)
+1713978995: nodered_8b98f5c02b984fd9 2 ph
+1713978995: Sending SUBACK to nodered_8b98f5c02b984fd9
+1713978995: Received SUBSCRIBE from nodered_8b98f5c02b984fd9
+1713978995: 	lieght (QoS 2)
+1713978995: nodered_8b98f5c02b984fd9 2 lieght
+1713978995: Sending SUBACK to nodered_8b98f5c02b984fd9
+1713979030: Received UNSUBSCRIBE from nodered_8b98f5c02b984fd9
+1713979030: 	temperature
+1713979030: nodered_8b98f5c02b984fd9 temperature
+1713979030: Sending UNSUBACK to nodered_8b98f5c02b984fd9
+1713979030: Received UNSUBSCRIBE from nodered_8b98f5c02b984fd9
+1713979030: 	humidity
+1713979030: nodered_8b98f5c02b984fd9 humidity
+1713979030: Sending UNSUBACK to nodered_8b98f5c02b984fd9
+1713979030: Received UNSUBSCRIBE from nodered_8b98f5c02b984fd9
+1713979030: 	pressure
+1713979030: nodered_8b98f5c02b984fd9 pressure
+1713979030: Sending UNSUBACK to nodered_8b98f5c02b984fd9
+1713979030: Received UNSUBSCRIBE from nodered_8b98f5c02b984fd9
+1713979030: 	ph
+1713979030: nodered_8b98f5c02b984fd9 ph
+1713979030: Sending UNSUBACK to nodered_8b98f5c02b984fd9
+1713979030: Received UNSUBSCRIBE from nodered_8b98f5c02b984fd9
+1713979030: 	lieght
+1713979030: nodered_8b98f5c02b984fd9 lieght
+1713979030: Sending UNSUBACK to nodered_8b98f5c02b984fd9
+1713979030: Received DISCONNECT from nodered_8b98f5c02b984fd9
+1713979030: Client nodered_8b98f5c02b984fd9 disconnected.
+1713979030: New connection from 192.168.192.3:40394 on port 1883.
+1713979030: New client connected from 192.168.192.3:40394 as nodered_c592e19f777d9c27 (p2, c1, k60, u'root').
+1713979030: No will message specified.
+1713979030: Sending CONNACK to nodered_c592e19f777d9c27 (0, 0)
+1713979030: Received SUBSCRIBE from nodered_c592e19f777d9c27
+1713979030: 	temperature (QoS 2)
+1713979030: nodered_c592e19f777d9c27 2 temperature
+1713979030: Sending SUBACK to nodered_c592e19f777d9c27
+1713979030: Received SUBSCRIBE from nodered_c592e19f777d9c27
+1713979030: 	humidity (QoS 2)
+1713979030: nodered_c592e19f777d9c27 2 humidity
+1713979030: Sending SUBACK to nodered_c592e19f777d9c27
+1713979030: Received SUBSCRIBE from nodered_c592e19f777d9c27
+1713979030: 	pressure (QoS 2)
+1713979030: nodered_c592e19f777d9c27 2 pressure
+1713979030: Sending SUBACK to nodered_c592e19f777d9c27
+1713979030: Received SUBSCRIBE from nodered_c592e19f777d9c27
+1713979030: 	ph (QoS 2)
+1713979030: nodered_c592e19f777d9c27 2 ph
+1713979030: Sending SUBACK to nodered_c592e19f777d9c27
+1713979030: Received SUBSCRIBE from nodered_c592e19f777d9c27
+1713979030: 	lieght (QoS 2)
+1713979030: nodered_c592e19f777d9c27 2 lieght
+1713979030: Sending SUBACK to nodered_c592e19f777d9c27
+1713979036: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713979042: New connection from 192.168.192.6:49441 on port 1883.
+1713979042: New connection from 192.168.192.6:58103 on port 1883.
+1713979042: New connection from 192.168.192.6:35181 on port 1883.
+1713979042: New connection from 192.168.192.6:32835 on port 1883.
+1713979042: New connection from 192.168.192.6:58477 on port 1883.
+1713979042: New connection from 192.168.192.6:37629 on port 1883.
+1713979042: New client connected from 192.168.192.6:49441 as python-mqtt-pond-light-pub-1 (p2, c1, k60).
+1713979042: No will message specified.
+1713979042: Sending CONNACK to python-mqtt-pond-light-pub-1 (0, 0)
+1713979042: New client connected from 192.168.192.6:58103 as python-mqtt-pond-press-pub-1 (p2, c1, k60).
+1713979042: No will message specified.
+1713979042: Sending CONNACK to python-mqtt-pond-press-pub-1 (0, 0)
+1713979042: New client connected from 192.168.192.6:35181 as python-mqtt-pond-water-level-pub-1 (p2, c1, k60).
+1713979042: No will message specified.
+1713979042: Sending CONNACK to python-mqtt-pond-water-level-pub-1 (0, 0)
+1713979042: New client connected from 192.168.192.6:32835 as python-mqtt-pond-temp-pub-1 (p2, c1, k60).
+1713979042: No will message specified.
+1713979042: Sending CONNACK to python-mqtt-pond-temp-pub-1 (0, 0)
+1713979042: New client connected from 192.168.192.6:58477 as python-mqtt-pond-hum-pub-1 (p2, c1, k60).
+1713979042: No will message specified.
+1713979042: Sending CONNACK to python-mqtt-pond-hum-pub-1 (0, 0)
+1713979042: New client connected from 192.168.192.6:37629 as python-mqtt-pond-soilph-pub-1 (p2, c1, k60).
+1713979042: No will message specified.
+1713979042: Sending CONNACK to python-mqtt-pond-soilph-pub-1 (0, 0)
+1713979043: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m1, 'water_level', ... (2 bytes))
+1713979043: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m1, rc0)
+1713979043: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m1, 'pressure', ... (6 bytes))
+1713979043: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m1, 'pressure', ... (6 bytes))
+1713979043: Sending PUBACK to python-mqtt-pond-press-pub-1 (m1, rc0)
+1713979043: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m1, 'temperature', ... (3 bytes))
+1713979043: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m2, 'temperature', ... (3 bytes))
+1713979043: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m1, rc0)
+1713979043: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m1, 'light', ... (7 bytes))
+1713979043: Sending PUBACK to python-mqtt-pond-light-pub-1 (m1, rc0)
+1713979043: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 1, RC:0)
+1713979043: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m1, 'humidity', ... (4 bytes))
+1713979043: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m3, 'humidity', ... (4 bytes))
+1713979043: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m1, rc0)
+1713979043: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m1, 'ph', ... (3 bytes))
+1713979043: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m4, 'ph', ... (3 bytes))
+1713979043: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m1, rc0)
+1713979043: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 2, RC:0)
+1713979043: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 3, RC:0)
+1713979043: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 4, RC:0)
+1713979045: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m2, 'water_level', ... (2 bytes))
+1713979045: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m2, rc0)
+1713979045: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m2, 'pressure', ... (7 bytes))
+1713979045: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m5, 'pressure', ... (7 bytes))
+1713979045: Sending PUBACK to python-mqtt-pond-press-pub-1 (m2, rc0)
+1713979045: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m2, 'temperature', ... (5 bytes))
+1713979045: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m6, 'temperature', ... (5 bytes))
+1713979045: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m2, rc0)
+1713979045: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m2, 'light', ... (8 bytes))
+1713979045: Sending PUBACK to python-mqtt-pond-light-pub-1 (m2, rc0)
+1713979045: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 5, RC:0)
+1713979045: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m2, 'humidity', ... (5 bytes))
+1713979045: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m7, 'humidity', ... (5 bytes))
+1713979045: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m2, rc0)
+1713979045: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m2, 'ph', ... (3 bytes))
+1713979045: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m8, 'ph', ... (3 bytes))
+1713979045: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m2, rc0)
+1713979045: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 6, RC:0)
+1713979045: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 7, RC:0)
+1713979045: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 8, RC:0)
+1713979047: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m3, 'water_level', ... (2 bytes))
+1713979047: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m3, rc0)
+1713979047: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m3, 'pressure', ... (7 bytes))
+1713979047: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m9, 'pressure', ... (7 bytes))
+1713979047: Sending PUBACK to python-mqtt-pond-press-pub-1 (m3, rc0)
+1713979047: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m3, 'temperature', ... (5 bytes))
+1713979047: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m10, 'temperature', ... (5 bytes))
+1713979047: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m3, rc0)
+1713979047: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m3, 'light', ... (8 bytes))
+1713979047: Sending PUBACK to python-mqtt-pond-light-pub-1 (m3, rc0)
+1713979047: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 9, RC:0)
+1713979047: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m3, 'humidity', ... (5 bytes))
+1713979047: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m11, 'humidity', ... (5 bytes))
+1713979047: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m3, rc0)
+1713979047: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m3, 'ph', ... (3 bytes))
+1713979047: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m12, 'ph', ... (3 bytes))
+1713979047: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m3, rc0)
+1713979047: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 10, RC:0)
+1713979047: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 11, RC:0)
+1713979047: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 12, RC:0)
+1713979049: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m4, 'water_level', ... (2 bytes))
+1713979049: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m4, rc0)
+1713979049: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m4, 'pressure', ... (7 bytes))
+1713979049: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m13, 'pressure', ... (7 bytes))
+1713979049: Sending PUBACK to python-mqtt-pond-press-pub-1 (m4, rc0)
+1713979049: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m4, 'temperature', ... (5 bytes))
+1713979049: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m14, 'temperature', ... (5 bytes))
+1713979049: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m4, rc0)
+1713979049: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m4, 'light', ... (8 bytes))
+1713979049: Sending PUBACK to python-mqtt-pond-light-pub-1 (m4, rc0)
+1713979049: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m4, 'humidity', ... (5 bytes))
+1713979049: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m15, 'humidity', ... (5 bytes))
+1713979049: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m4, rc0)
+1713979049: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m4, 'ph', ... (4 bytes))
+1713979049: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m16, 'ph', ... (4 bytes))
+1713979049: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m4, rc0)
+1713979049: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 13, RC:0)
+1713979049: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 14, RC:0)
+1713979049: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 15, RC:0)
+1713979049: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 16, RC:0)
+1713979051: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m5, 'water_level', ... (2 bytes))
+1713979051: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m5, rc0)
+1713979051: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m5, 'pressure', ... (7 bytes))
+1713979051: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m17, 'pressure', ... (7 bytes))
+1713979051: Sending PUBACK to python-mqtt-pond-press-pub-1 (m5, rc0)
+1713979051: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m5, 'light', ... (7 bytes))
+1713979051: Sending PUBACK to python-mqtt-pond-light-pub-1 (m5, rc0)
+1713979051: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m5, 'temperature', ... (5 bytes))
+1713979051: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m18, 'temperature', ... (5 bytes))
+1713979051: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m5, rc0)
+1713979051: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 17, RC:0)
+1713979051: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m5, 'humidity', ... (5 bytes))
+1713979051: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m19, 'humidity', ... (5 bytes))
+1713979051: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m5, rc0)
+1713979051: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m5, 'ph', ... (3 bytes))
+1713979051: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m20, 'ph', ... (3 bytes))
+1713979051: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m5, rc0)
+1713979051: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 18, RC:0)
+1713979051: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 19, RC:0)
+1713979051: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 20, RC:0)
+1713979053: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m6, 'water_level', ... (2 bytes))
+1713979053: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m6, rc0)
+1713979053: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m6, 'pressure', ... (6 bytes))
+1713979053: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m21, 'pressure', ... (6 bytes))
+1713979053: Sending PUBACK to python-mqtt-pond-press-pub-1 (m6, rc0)
+1713979053: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m6, 'temperature', ... (4 bytes))
+1713979053: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m22, 'temperature', ... (4 bytes))
+1713979053: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m6, rc0)
+1713979053: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m6, 'light', ... (8 bytes))
+1713979053: Sending PUBACK to python-mqtt-pond-light-pub-1 (m6, rc0)
+1713979053: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 21, RC:0)
+1713979053: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 22, RC:0)
+1713979053: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m6, 'humidity', ... (5 bytes))
+1713979053: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m23, 'humidity', ... (5 bytes))
+1713979053: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m6, rc0)
+1713979053: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m6, 'ph', ... (3 bytes))
+1713979053: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m24, 'ph', ... (3 bytes))
+1713979053: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m6, rc0)
+1713979053: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 23, RC:0)
+1713979053: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 24, RC:0)
+1713979055: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m7, 'water_level', ... (2 bytes))
+1713979055: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m7, rc0)
+1713979055: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m7, 'pressure', ... (6 bytes))
+1713979055: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m25, 'pressure', ... (6 bytes))
+1713979055: Sending PUBACK to python-mqtt-pond-press-pub-1 (m7, rc0)
+1713979055: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m7, 'temperature', ... (5 bytes))
+1713979055: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m26, 'temperature', ... (5 bytes))
+1713979055: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m7, rc0)
+1713979055: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m7, 'light', ... (8 bytes))
+1713979055: Sending PUBACK to python-mqtt-pond-light-pub-1 (m7, rc0)
+1713979055: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m7, 'humidity', ... (5 bytes))
+1713979055: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m27, 'humidity', ... (5 bytes))
+1713979055: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m7, rc0)
+1713979055: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m7, 'ph', ... (4 bytes))
+1713979055: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m28, 'ph', ... (4 bytes))
+1713979055: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m7, rc0)
+1713979055: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 25, RC:0)
+1713979055: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 26, RC:0)
+1713979055: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 27, RC:0)
+1713979055: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 28, RC:0)
+1713979057: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m8, 'water_level', ... (2 bytes))
+1713979057: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m8, rc0)
+1713979057: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m8, 'pressure', ... (7 bytes))
+1713979057: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m29, 'pressure', ... (7 bytes))
+1713979057: Sending PUBACK to python-mqtt-pond-press-pub-1 (m8, rc0)
+1713979057: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m8, 'temperature', ... (5 bytes))
+1713979057: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m30, 'temperature', ... (5 bytes))
+1713979057: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m8, rc0)
+1713979057: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m8, 'light', ... (8 bytes))
+1713979057: Sending PUBACK to python-mqtt-pond-light-pub-1 (m8, rc0)
+1713979057: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m8, 'humidity', ... (5 bytes))
+1713979057: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m31, 'humidity', ... (5 bytes))
+1713979057: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m8, rc0)
+1713979057: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 29, RC:0)
+1713979057: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m8, 'ph', ... (3 bytes))
+1713979057: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m32, 'ph', ... (3 bytes))
+1713979057: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m8, rc0)
+1713979057: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 30, RC:0)
+1713979057: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 31, RC:0)
+1713979057: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 32, RC:0)
+1713979059: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m9, 'water_level', ... (2 bytes))
+1713979059: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m9, rc0)
+1713979059: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m9, 'pressure', ... (7 bytes))
+1713979059: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m33, 'pressure', ... (7 bytes))
+1713979059: Sending PUBACK to python-mqtt-pond-press-pub-1 (m9, rc0)
+1713979059: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m9, 'temperature', ... (5 bytes))
+1713979059: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m34, 'temperature', ... (5 bytes))
+1713979059: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m9, rc0)
+1713979059: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 33, RC:0)
+1713979059: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m9, 'light', ... (7 bytes))
+1713979059: Sending PUBACK to python-mqtt-pond-light-pub-1 (m9, rc0)
+1713979059: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m9, 'humidity', ... (5 bytes))
+1713979059: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m35, 'humidity', ... (5 bytes))
+1713979059: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m9, rc0)
+1713979059: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 34, RC:0)
+1713979059: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m9, 'ph', ... (3 bytes))
+1713979059: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m36, 'ph', ... (3 bytes))
+1713979059: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m9, rc0)
+1713979059: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 35, RC:0)
+1713979059: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 36, RC:0)
+1713979061: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m10, 'water_level', ... (2 bytes))
+1713979061: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m10, rc0)
+1713979061: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m10, 'pressure', ... (6 bytes))
+1713979061: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m37, 'pressure', ... (6 bytes))
+1713979061: Sending PUBACK to python-mqtt-pond-press-pub-1 (m10, rc0)
+1713979061: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m10, 'temperature', ... (5 bytes))
+1713979061: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m38, 'temperature', ... (5 bytes))
+1713979061: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m10, rc0)
+1713979061: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m10, 'light', ... (7 bytes))
+1713979061: Sending PUBACK to python-mqtt-pond-light-pub-1 (m10, rc0)
+1713979061: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m10, 'humidity', ... (4 bytes))
+1713979061: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m39, 'humidity', ... (4 bytes))
+1713979061: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m10, rc0)
+1713979061: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m10, 'ph', ... (4 bytes))
+1713979061: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m40, 'ph', ... (4 bytes))
+1713979061: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m10, rc0)
+1713979061: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 37, RC:0)
+1713979061: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 38, RC:0)
+1713979061: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 39, RC:0)
+1713979061: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 40, RC:0)
+1713979063: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m11, 'water_level', ... (2 bytes))
+1713979063: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m11, rc0)
+1713979063: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m11, 'pressure', ... (7 bytes))
+1713979063: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m41, 'pressure', ... (7 bytes))
+1713979063: Sending PUBACK to python-mqtt-pond-press-pub-1 (m11, rc0)
+1713979063: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m11, 'temperature', ... (5 bytes))
+1713979063: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m42, 'temperature', ... (5 bytes))
+1713979063: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m11, rc0)
+1713979063: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m11, 'humidity', ... (4 bytes))
+1713979063: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m43, 'humidity', ... (4 bytes))
+1713979063: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m11, rc0)
+1713979063: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m11, 'light', ... (5 bytes))
+1713979063: Sending PUBACK to python-mqtt-pond-light-pub-1 (m11, rc0)
+1713979063: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m11, 'ph', ... (3 bytes))
+1713979063: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m44, 'ph', ... (3 bytes))
+1713979063: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m11, rc0)
+1713979063: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 41, RC:0)
+1713979063: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 42, RC:0)
+1713979063: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 43, RC:0)
+1713979063: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 44, RC:0)
+1713979065: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m12, 'water_level', ... (2 bytes))
+1713979065: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m12, rc0)
+1713979065: Client python-mqtt-pond-water-level-pub-1 closed its connection.
+1713979065: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m12, 'pressure', ... (7 bytes))
+1713979065: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m45, 'pressure', ... (7 bytes))
+1713979065: Sending PUBACK to python-mqtt-pond-press-pub-1 (m12, rc0)
+1713979065: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m12, 'temperature', ... (5 bytes))
+1713979065: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m46, 'temperature', ... (5 bytes))
+1713979065: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m12, rc0)
+1713979065: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m12, 'humidity', ... (5 bytes))
+1713979065: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m47, 'humidity', ... (5 bytes))
+1713979065: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m12, rc0)
+1713979065: Client python-mqtt-pond-temp-pub-1 closed its connection.
+1713979065: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m12, 'light', ... (8 bytes))
+1713979065: Sending PUBACK to python-mqtt-pond-light-pub-1 (m12, rc0)
+1713979065: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 45, RC:0)
+1713979065: Client python-mqtt-pond-press-pub-1 closed its connection.
+1713979065: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m12, 'ph', ... (3 bytes))
+1713979065: Sending PUBLISH to nodered_c592e19f777d9c27 (d0, q1, r0, m48, 'ph', ... (3 bytes))
+1713979065: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m12, rc0)
+1713979065: Client python-mqtt-pond-light-pub-1 closed its connection.
+1713979065: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 46, RC:0)
+1713979065: Client python-mqtt-pond-hum-pub-1 closed its connection.
+1713979065: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 47, RC:0)
+1713979065: Client python-mqtt-pond-soilph-pub-1 closed its connection.
+1713979065: Received PUBACK from nodered_c592e19f777d9c27 (Mid: 48, RC:0)
+1713979107: Received UNSUBSCRIBE from nodered_c592e19f777d9c27
+1713979107: 	temperature
+1713979107: nodered_c592e19f777d9c27 temperature
+1713979107: Sending UNSUBACK to nodered_c592e19f777d9c27
+1713979107: Received UNSUBSCRIBE from nodered_c592e19f777d9c27
+1713979107: 	humidity
+1713979107: nodered_c592e19f777d9c27 humidity
+1713979107: Sending UNSUBACK to nodered_c592e19f777d9c27
+1713979107: Received UNSUBSCRIBE from nodered_c592e19f777d9c27
+1713979107: 	pressure
+1713979107: nodered_c592e19f777d9c27 pressure
+1713979107: Sending UNSUBACK to nodered_c592e19f777d9c27
+1713979107: Received UNSUBSCRIBE from nodered_c592e19f777d9c27
+1713979107: 	ph
+1713979107: nodered_c592e19f777d9c27 ph
+1713979107: Sending UNSUBACK to nodered_c592e19f777d9c27
+1713979107: Received UNSUBSCRIBE from nodered_c592e19f777d9c27
+1713979107: 	lieght
+1713979107: nodered_c592e19f777d9c27 lieght
+1713979107: Sending UNSUBACK to nodered_c592e19f777d9c27
+1713979107: Received DISCONNECT from nodered_c592e19f777d9c27
+1713979107: Client nodered_c592e19f777d9c27 disconnected.
+1713979107: New connection from 192.168.192.3:48802 on port 1883.
+1713979107: New client connected from 192.168.192.3:48802 as nodered_90961c23620890e5 (p2, c1, k60, u'root').
+1713979107: No will message specified.
+1713979107: Sending CONNACK to nodered_90961c23620890e5 (0, 0)
+1713979107: Received SUBSCRIBE from nodered_90961c23620890e5
+1713979107: 	temperature (QoS 2)
+1713979107: nodered_90961c23620890e5 2 temperature
+1713979107: Sending SUBACK to nodered_90961c23620890e5
+1713979107: Received SUBSCRIBE from nodered_90961c23620890e5
+1713979107: 	humidity (QoS 2)
+1713979107: nodered_90961c23620890e5 2 humidity
+1713979107: Sending SUBACK to nodered_90961c23620890e5
+1713979107: Received SUBSCRIBE from nodered_90961c23620890e5
+1713979107: 	pressure (QoS 2)
+1713979107: nodered_90961c23620890e5 2 pressure
+1713979107: Sending SUBACK to nodered_90961c23620890e5
+1713979107: Received SUBSCRIBE from nodered_90961c23620890e5
+1713979107: 	ph (QoS 2)
+1713979107: nodered_90961c23620890e5 2 ph
+1713979107: Sending SUBACK to nodered_90961c23620890e5
+1713979107: Received SUBSCRIBE from nodered_90961c23620890e5
+1713979107: 	lieght (QoS 2)
+1713979107: nodered_90961c23620890e5 2 lieght
+1713979107: Sending SUBACK to nodered_90961c23620890e5
+1713979167: Received PINGREQ from nodered_90961c23620890e5
+1713979167: Sending PINGRESP to nodered_90961c23620890e5
+1713979227: Received PINGREQ from nodered_90961c23620890e5
+1713979227: Sending PINGRESP to nodered_90961c23620890e5
+1713979287: Received PINGREQ from nodered_90961c23620890e5
+1713979287: Sending PINGRESP to nodered_90961c23620890e5
+1713979347: Received PINGREQ from nodered_90961c23620890e5
+1713979347: Sending PINGRESP to nodered_90961c23620890e5
+1713979407: Received PINGREQ from nodered_90961c23620890e5
+1713979407: Sending PINGRESP to nodered_90961c23620890e5
+1713979467: Received PINGREQ from nodered_90961c23620890e5
+1713979467: Sending PINGRESP to nodered_90961c23620890e5
+1713979527: Received PINGREQ from nodered_90961c23620890e5
+1713979527: Sending PINGRESP to nodered_90961c23620890e5
+1713979587: Received PINGREQ from nodered_90961c23620890e5
+1713979587: Sending PINGRESP to nodered_90961c23620890e5
+1713979647: Received PINGREQ from nodered_90961c23620890e5
+1713979647: Sending PINGRESP to nodered_90961c23620890e5
+1713979707: Received PINGREQ from nodered_90961c23620890e5
+1713979707: Sending PINGRESP to nodered_90961c23620890e5
+1713979767: Received PINGREQ from nodered_90961c23620890e5
+1713979767: Sending PINGRESP to nodered_90961c23620890e5
+1713979827: Received PINGREQ from nodered_90961c23620890e5
+1713979827: Sending PINGRESP to nodered_90961c23620890e5
+1713979887: Received PINGREQ from nodered_90961c23620890e5
+1713979887: Sending PINGRESP to nodered_90961c23620890e5
+1713979947: Received PINGREQ from nodered_90961c23620890e5
+1713979947: Sending PINGRESP to nodered_90961c23620890e5
+1713980007: Received PINGREQ from nodered_90961c23620890e5
+1713980007: Sending PINGRESP to nodered_90961c23620890e5
+1713980067: Received PINGREQ from nodered_90961c23620890e5
+1713980067: Sending PINGRESP to nodered_90961c23620890e5
+1713980127: Received PINGREQ from nodered_90961c23620890e5
+1713980127: Sending PINGRESP to nodered_90961c23620890e5
+1713980187: Received PINGREQ from nodered_90961c23620890e5
+1713980187: Sending PINGRESP to nodered_90961c23620890e5
+1713980247: Received PINGREQ from nodered_90961c23620890e5
+1713980247: Sending PINGRESP to nodered_90961c23620890e5
+1713980307: Received PINGREQ from nodered_90961c23620890e5
+1713980307: Sending PINGRESP to nodered_90961c23620890e5
+1713980367: Received PINGREQ from nodered_90961c23620890e5
+1713980367: Sending PINGRESP to nodered_90961c23620890e5
+1713980427: Received PINGREQ from nodered_90961c23620890e5
+1713980427: Sending PINGRESP to nodered_90961c23620890e5
+1713980487: Received PINGREQ from nodered_90961c23620890e5
+1713980487: Sending PINGRESP to nodered_90961c23620890e5
+1713980547: Received PINGREQ from nodered_90961c23620890e5
+1713980547: Sending PINGRESP to nodered_90961c23620890e5
+1713980607: Received PINGREQ from nodered_90961c23620890e5
+1713980607: Sending PINGRESP to nodered_90961c23620890e5
+1713980667: Received PINGREQ from nodered_90961c23620890e5
+1713980667: Sending PINGRESP to nodered_90961c23620890e5
+1713980727: Received PINGREQ from nodered_90961c23620890e5
+1713980727: Sending PINGRESP to nodered_90961c23620890e5
+1713980787: Received PINGREQ from nodered_90961c23620890e5
+1713980787: Sending PINGRESP to nodered_90961c23620890e5
+1713980837: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713980847: Received PINGREQ from nodered_90961c23620890e5
+1713980847: Sending PINGRESP to nodered_90961c23620890e5
+1713980907: Received PINGREQ from nodered_90961c23620890e5
+1713980907: Sending PINGRESP to nodered_90961c23620890e5
+1713980967: Received PINGREQ from nodered_90961c23620890e5
+1713980967: Sending PINGRESP to nodered_90961c23620890e5
+1713981027: Received PINGREQ from nodered_90961c23620890e5
+1713981027: Sending PINGRESP to nodered_90961c23620890e5
+1713981087: Received PINGREQ from nodered_90961c23620890e5
+1713981087: Sending PINGRESP to nodered_90961c23620890e5
+1713981147: Received PINGREQ from nodered_90961c23620890e5
+1713981147: Sending PINGRESP to nodered_90961c23620890e5
+1713981207: Received PINGREQ from nodered_90961c23620890e5
+1713981207: Sending PINGRESP to nodered_90961c23620890e5
+1713981267: Received PINGREQ from nodered_90961c23620890e5
+1713981267: Sending PINGRESP to nodered_90961c23620890e5
+1713981327: Received PINGREQ from nodered_90961c23620890e5
+1713981327: Sending PINGRESP to nodered_90961c23620890e5
+1713981387: Received PINGREQ from nodered_90961c23620890e5
+1713981387: Sending PINGRESP to nodered_90961c23620890e5
+1713981447: Received PINGREQ from nodered_90961c23620890e5
+1713981447: Sending PINGRESP to nodered_90961c23620890e5
+1713981507: Received PINGREQ from nodered_90961c23620890e5
+1713981507: Sending PINGRESP to nodered_90961c23620890e5
+1713981567: Received PINGREQ from nodered_90961c23620890e5
+1713981567: Sending PINGRESP to nodered_90961c23620890e5
+1713981627: Received PINGREQ from nodered_90961c23620890e5
+1713981627: Sending PINGRESP to nodered_90961c23620890e5
+1713981687: Received PINGREQ from nodered_90961c23620890e5
+1713981687: Sending PINGRESP to nodered_90961c23620890e5
+1713981747: Received PINGREQ from nodered_90961c23620890e5
+1713981747: Sending PINGRESP to nodered_90961c23620890e5
+1713981807: Received PINGREQ from nodered_90961c23620890e5
+1713981807: Sending PINGRESP to nodered_90961c23620890e5
+1713981867: Received PINGREQ from nodered_90961c23620890e5
+1713981867: Sending PINGRESP to nodered_90961c23620890e5
+1713981927: Received PINGREQ from nodered_90961c23620890e5
+1713981927: Sending PINGRESP to nodered_90961c23620890e5
+1713981987: Received PINGREQ from nodered_90961c23620890e5
+1713981987: Sending PINGRESP to nodered_90961c23620890e5
+1713982047: Received PINGREQ from nodered_90961c23620890e5
+1713982047: Sending PINGRESP to nodered_90961c23620890e5
+1713982107: Received PINGREQ from nodered_90961c23620890e5
+1713982107: Sending PINGRESP to nodered_90961c23620890e5
+1713982167: Received PINGREQ from nodered_90961c23620890e5
+1713982167: Sending PINGRESP to nodered_90961c23620890e5
+1713982227: Received PINGREQ from nodered_90961c23620890e5
+1713982227: Sending PINGRESP to nodered_90961c23620890e5
+1713982287: Received PINGREQ from nodered_90961c23620890e5
+1713982287: Sending PINGRESP to nodered_90961c23620890e5
+1713982318: Received UNSUBSCRIBE from nodered_90961c23620890e5
+1713982318: 	temperature
+1713982318: nodered_90961c23620890e5 temperature
+1713982318: Sending UNSUBACK to nodered_90961c23620890e5
+1713982318: Received UNSUBSCRIBE from nodered_90961c23620890e5
+1713982318: 	humidity
+1713982318: nodered_90961c23620890e5 humidity
+1713982318: Sending UNSUBACK to nodered_90961c23620890e5
+1713982318: Received UNSUBSCRIBE from nodered_90961c23620890e5
+1713982318: 	pressure
+1713982318: nodered_90961c23620890e5 pressure
+1713982318: Sending UNSUBACK to nodered_90961c23620890e5
+1713982318: Received UNSUBSCRIBE from nodered_90961c23620890e5
+1713982318: 	ph
+1713982318: nodered_90961c23620890e5 ph
+1713982318: Sending UNSUBACK to nodered_90961c23620890e5
+1713982318: Received UNSUBSCRIBE from nodered_90961c23620890e5
+1713982318: 	lieght
+1713982318: nodered_90961c23620890e5 lieght
+1713982318: Sending UNSUBACK to nodered_90961c23620890e5
+1713982318: Received DISCONNECT from nodered_90961c23620890e5
+1713982318: Client nodered_90961c23620890e5 disconnected.
+1713982320: mosquitto version 2.0.18 terminating
+1713982320: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714066202: mosquitto version 2.0.18 starting
+1714066202: Config loaded from /mosquitto/config/mosquitto.conf.
+1714066202: Opening ipv4 listen socket on port 1883.
+1714066202: Opening ipv6 listen socket on port 1883.
+1714066202: Opening ipv4 listen socket on port 9001.
+1714066202: Opening ipv6 listen socket on port 9001.
+1714066202: Opening websockets listen socket on port 8083.
+1714066202: mosquitto version 2.0.18 running
+1714066218: New connection from 192.168.192.4:36985 on port 1883.
+1714066218: New connection from 192.168.192.4:37447 on port 1883.
+1714066218: New connection from 192.168.192.4:53531 on port 1883.
+1714066218: New connection from 192.168.192.4:57891 on port 1883.
+1714066218: New connection from 192.168.192.4:36861 on port 1883.
+1714066218: New connection from 192.168.192.4:51411 on port 1883.
+1714066218: New client connected from 192.168.192.4:36985 as python-mqtt-pond-press-pub-1 (p2, c1, k60).
+1714066218: No will message specified.
+1714066218: Sending CONNACK to python-mqtt-pond-press-pub-1 (0, 0)
+1714066218: New client connected from 192.168.192.4:37447 as python-mqtt-pond-light-pub-1 (p2, c1, k60).
+1714066218: No will message specified.
+1714066218: Sending CONNACK to python-mqtt-pond-light-pub-1 (0, 0)
+1714066218: New client connected from 192.168.192.4:53531 as python-mqtt-pond-temp-pub-1 (p2, c1, k60).
+1714066218: No will message specified.
+1714066218: Sending CONNACK to python-mqtt-pond-temp-pub-1 (0, 0)
+1714066218: New client connected from 192.168.192.4:57891 as python-mqtt-pond-hum-pub-1 (p2, c1, k60).
+1714066218: No will message specified.
+1714066218: Sending CONNACK to python-mqtt-pond-hum-pub-1 (0, 0)
+1714066218: New client connected from 192.168.192.4:36861 as python-mqtt-pond-water-level-pub-1 (p2, c1, k60).
+1714066218: No will message specified.
+1714066218: Sending CONNACK to python-mqtt-pond-water-level-pub-1 (0, 0)
+1714066218: New client connected from 192.168.192.4:51411 as python-mqtt-pond-soilph-pub-1 (p2, c1, k60).
+1714066218: No will message specified.
+1714066218: Sending CONNACK to python-mqtt-pond-soilph-pub-1 (0, 0)
+1714066219: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m1, 'water_level', ... (2 bytes))
+1714066219: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m1, rc0)
+1714066219: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m1, 'pressure', ... (6 bytes))
+1714066219: Sending PUBACK to python-mqtt-pond-press-pub-1 (m1, rc0)
+1714066219: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m1, 'temperature', ... (5 bytes))
+1714066219: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m1, rc0)
+1714066219: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m1, 'light', ... (8 bytes))
+1714066219: Sending PUBACK to python-mqtt-pond-light-pub-1 (m1, rc0)
+1714066219: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m1, 'humidity', ... (5 bytes))
+1714066219: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m1, rc0)
+1714066219: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m1, 'ph', ... (3 bytes))
+1714066219: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m1, rc0)
+1714066221: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m2, 'water_level', ... (2 bytes))
+1714066221: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m2, rc0)
+1714066221: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m2, 'pressure', ... (6 bytes))
+1714066221: Sending PUBACK to python-mqtt-pond-press-pub-1 (m2, rc0)
+1714066221: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m2, 'temperature', ... (5 bytes))
+1714066221: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m2, rc0)
+1714066221: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m2, 'light', ... (8 bytes))
+1714066221: Sending PUBACK to python-mqtt-pond-light-pub-1 (m2, rc0)
+1714066221: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m2, 'humidity', ... (5 bytes))
+1714066221: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m2, rc0)
+1714066221: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m2, 'ph', ... (3 bytes))
+1714066221: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m2, rc0)
+1714066223: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m3, 'water_level', ... (2 bytes))
+1714066223: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m3, rc0)
+1714066223: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m3, 'pressure', ... (7 bytes))
+1714066223: Sending PUBACK to python-mqtt-pond-press-pub-1 (m3, rc0)
+1714066223: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m3, 'temperature', ... (5 bytes))
+1714066223: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m3, rc0)
+1714066223: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m3, 'light', ... (7 bytes))
+1714066223: Sending PUBACK to python-mqtt-pond-light-pub-1 (m3, rc0)
+1714066223: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m3, 'ph', ... (3 bytes))
+1714066223: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m3, rc0)
+1714066223: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m3, 'humidity', ... (5 bytes))
+1714066223: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m3, rc0)
+1714066225: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m4, 'water_level', ... (2 bytes))
+1714066225: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m4, rc0)
+1714066225: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m4, 'pressure', ... (6 bytes))
+1714066225: Sending PUBACK to python-mqtt-pond-press-pub-1 (m4, rc0)
+1714066225: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m4, 'temperature', ... (4 bytes))
+1714066225: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m4, rc0)
+1714066225: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m4, 'light', ... (7 bytes))
+1714066225: Sending PUBACK to python-mqtt-pond-light-pub-1 (m4, rc0)
+1714066225: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m4, 'ph', ... (3 bytes))
+1714066225: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m4, rc0)
+1714066225: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m4, 'humidity', ... (5 bytes))
+1714066225: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m4, rc0)
+1714066227: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m5, 'water_level', ... (2 bytes))
+1714066227: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m5, rc0)
+1714066227: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m5, 'pressure', ... (6 bytes))
+1714066227: Sending PUBACK to python-mqtt-pond-press-pub-1 (m5, rc0)
+1714066227: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m5, 'temperature', ... (5 bytes))
+1714066227: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m5, rc0)
+1714066227: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m5, 'light', ... (8 bytes))
+1714066227: Sending PUBACK to python-mqtt-pond-light-pub-1 (m5, rc0)
+1714066227: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m5, 'ph', ... (3 bytes))
+1714066227: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m5, rc0)
+1714066227: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m5, 'humidity', ... (5 bytes))
+1714066227: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m5, rc0)
+1714066229: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m6, 'water_level', ... (2 bytes))
+1714066229: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m6, rc0)
+1714066229: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m6, 'pressure', ... (6 bytes))
+1714066229: Sending PUBACK to python-mqtt-pond-press-pub-1 (m6, rc0)
+1714066229: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m6, 'light', ... (8 bytes))
+1714066229: Sending PUBACK to python-mqtt-pond-light-pub-1 (m6, rc0)
+1714066229: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m6, 'temperature', ... (5 bytes))
+1714066229: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m6, rc0)
+1714066229: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m6, 'ph', ... (4 bytes))
+1714066229: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m6, rc0)
+1714066229: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m6, 'humidity', ... (5 bytes))
+1714066229: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m6, rc0)
+1714066231: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m7, 'water_level', ... (2 bytes))
+1714066231: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m7, rc0)
+1714066231: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m7, 'pressure', ... (6 bytes))
+1714066231: Sending PUBACK to python-mqtt-pond-press-pub-1 (m7, rc0)
+1714066231: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m7, 'light', ... (7 bytes))
+1714066231: Sending PUBACK to python-mqtt-pond-light-pub-1 (m7, rc0)
+1714066231: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m7, 'temperature', ... (5 bytes))
+1714066231: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m7, rc0)
+1714066231: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m7, 'humidity', ... (4 bytes))
+1714066231: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m7, rc0)
+1714066231: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m7, 'ph', ... (4 bytes))
+1714066231: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m7, rc0)
+1714066233: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m8, 'water_level', ... (2 bytes))
+1714066233: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m8, rc0)
+1714066233: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m8, 'pressure', ... (7 bytes))
+1714066233: Sending PUBACK to python-mqtt-pond-press-pub-1 (m8, rc0)
+1714066233: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m8, 'light', ... (8 bytes))
+1714066233: Sending PUBACK to python-mqtt-pond-light-pub-1 (m8, rc0)
+1714066233: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m8, 'temperature', ... (5 bytes))
+1714066233: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m8, rc0)
+1714066233: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m8, 'ph', ... (3 bytes))
+1714066233: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m8, rc0)
+1714066233: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m8, 'humidity', ... (5 bytes))
+1714066233: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m8, rc0)
+1714066235: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m9, 'water_level', ... (2 bytes))
+1714066235: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m9, rc0)
+1714066235: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m9, 'pressure', ... (7 bytes))
+1714066235: Sending PUBACK to python-mqtt-pond-press-pub-1 (m9, rc0)
+1714066235: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m9, 'light', ... (8 bytes))
+1714066235: Sending PUBACK to python-mqtt-pond-light-pub-1 (m9, rc0)
+1714066235: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m9, 'ph', ... (3 bytes))
+1714066235: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m9, rc0)
+1714066235: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m9, 'humidity', ... (5 bytes))
+1714066235: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m9, rc0)
+1714066235: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m9, 'temperature', ... (5 bytes))
+1714066235: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m9, rc0)
+1714066237: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m10, 'water_level', ... (2 bytes))
+1714066237: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m10, rc0)
+1714066237: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m10, 'pressure', ... (6 bytes))
+1714066237: Sending PUBACK to python-mqtt-pond-press-pub-1 (m10, rc0)
+1714066237: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m10, 'light', ... (8 bytes))
+1714066237: Sending PUBACK to python-mqtt-pond-light-pub-1 (m10, rc0)
+1714066237: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m10, 'ph', ... (3 bytes))
+1714066237: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m10, rc0)
+1714066237: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m10, 'temperature', ... (5 bytes))
+1714066237: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m10, rc0)
+1714066237: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m10, 'humidity', ... (5 bytes))
+1714066237: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m10, rc0)
+1714066237: New connection from 192.168.192.3:33466 on port 1883.
+1714066237: New client connected from 192.168.192.3:33466 as nodered_3b88b6998635caf4 (p2, c1, k60, u'root').
+1714066237: No will message specified.
+1714066237: Sending CONNACK to nodered_3b88b6998635caf4 (0, 0)
+1714066237: Received SUBSCRIBE from nodered_3b88b6998635caf4
+1714066237: 	temperature (QoS 2)
+1714066237: nodered_3b88b6998635caf4 2 temperature
+1714066237: Sending SUBACK to nodered_3b88b6998635caf4
+1714066237: Received SUBSCRIBE from nodered_3b88b6998635caf4
+1714066237: 	humidity (QoS 2)
+1714066237: nodered_3b88b6998635caf4 2 humidity
+1714066237: Sending SUBACK to nodered_3b88b6998635caf4
+1714066237: Received SUBSCRIBE from nodered_3b88b6998635caf4
+1714066237: 	pressure (QoS 2)
+1714066237: nodered_3b88b6998635caf4 2 pressure
+1714066237: Sending SUBACK to nodered_3b88b6998635caf4
+1714066237: Received SUBSCRIBE from nodered_3b88b6998635caf4
+1714066237: 	ph (QoS 2)
+1714066237: nodered_3b88b6998635caf4 2 ph
+1714066237: Sending SUBACK to nodered_3b88b6998635caf4
+1714066237: Received SUBSCRIBE from nodered_3b88b6998635caf4
+1714066237: 	lieght (QoS 2)
+1714066237: nodered_3b88b6998635caf4 2 lieght
+1714066237: Sending SUBACK to nodered_3b88b6998635caf4
+1714066239: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m11, 'water_level', ... (2 bytes))
+1714066239: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m11, rc0)
+1714066239: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m11, 'pressure', ... (7 bytes))
+1714066239: Sending PUBLISH to nodered_3b88b6998635caf4 (d0, q1, r0, m1, 'pressure', ... (7 bytes))
+1714066239: Sending PUBACK to python-mqtt-pond-press-pub-1 (m11, rc0)
+1714066239: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m11, 'light', ... (8 bytes))
+1714066239: Sending PUBACK to python-mqtt-pond-light-pub-1 (m11, rc0)
+1714066239: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m11, 'ph', ... (3 bytes))
+1714066239: Sending PUBLISH to nodered_3b88b6998635caf4 (d0, q1, r0, m2, 'ph', ... (3 bytes))
+1714066239: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m11, rc0)
+1714066239: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m11, 'temperature', ... (5 bytes))
+1714066239: Sending PUBLISH to nodered_3b88b6998635caf4 (d0, q1, r0, m3, 'temperature', ... (5 bytes))
+1714066239: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m11, rc0)
+1714066239: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m11, 'humidity', ... (4 bytes))
+1714066239: Sending PUBLISH to nodered_3b88b6998635caf4 (d0, q1, r0, m4, 'humidity', ... (4 bytes))
+1714066239: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m11, rc0)
+1714066239: Received PUBACK from nodered_3b88b6998635caf4 (Mid: 1, RC:0)
+1714066239: Received PUBACK from nodered_3b88b6998635caf4 (Mid: 2, RC:0)
+1714066239: Received PUBACK from nodered_3b88b6998635caf4 (Mid: 3, RC:0)
+1714066239: Received PUBACK from nodered_3b88b6998635caf4 (Mid: 4, RC:0)
+1714066241: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m12, 'water_level', ... (2 bytes))
+1714066241: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m12, rc0)
+1714066241: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m12, 'pressure', ... (7 bytes))
+1714066241: Sending PUBLISH to nodered_3b88b6998635caf4 (d0, q1, r0, m5, 'pressure', ... (7 bytes))
+1714066241: Sending PUBACK to python-mqtt-pond-press-pub-1 (m12, rc0)
+1714066241: Client python-mqtt-pond-water-level-pub-1 closed its connection.
+1714066241: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m12, 'light', ... (8 bytes))
+1714066241: Sending PUBACK to python-mqtt-pond-light-pub-1 (m12, rc0)
+1714066241: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m12, 'ph', ... (3 bytes))
+1714066241: Sending PUBLISH to nodered_3b88b6998635caf4 (d0, q1, r0, m6, 'ph', ... (3 bytes))
+1714066241: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m12, rc0)
+1714066241: Received PUBACK from nodered_3b88b6998635caf4 (Mid: 5, RC:0)
+1714066241: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m12, 'temperature', ... (5 bytes))
+1714066241: Sending PUBLISH to nodered_3b88b6998635caf4 (d0, q1, r0, m7, 'temperature', ... (5 bytes))
+1714066241: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m12, rc0)
+1714066241: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m12, 'humidity', ... (4 bytes))
+1714066241: Sending PUBLISH to nodered_3b88b6998635caf4 (d0, q1, r0, m8, 'humidity', ... (4 bytes))
+1714066241: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m12, rc0)
+1714066241: Client python-mqtt-pond-light-pub-1 closed its connection.
+1714066241: Client python-mqtt-pond-soilph-pub-1 closed its connection.
+1714066241: Received PUBACK from nodered_3b88b6998635caf4 (Mid: 6, RC:0)
+1714066241: Client python-mqtt-pond-temp-pub-1 closed its connection.
+1714066241: Client python-mqtt-pond-press-pub-1 closed its connection.
+1714066241: Received PUBACK from nodered_3b88b6998635caf4 (Mid: 7, RC:0)
+1714066241: Client python-mqtt-pond-hum-pub-1 closed its connection.
+1714066241: Received PUBACK from nodered_3b88b6998635caf4 (Mid: 8, RC:0)
+1714066301: Received PINGREQ from nodered_3b88b6998635caf4
+1714066301: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066361: Received PINGREQ from nodered_3b88b6998635caf4
+1714066361: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066421: Received PINGREQ from nodered_3b88b6998635caf4
+1714066421: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066481: Received PINGREQ from nodered_3b88b6998635caf4
+1714066481: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066541: Received PINGREQ from nodered_3b88b6998635caf4
+1714066541: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066601: Received PINGREQ from nodered_3b88b6998635caf4
+1714066601: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066661: Received PINGREQ from nodered_3b88b6998635caf4
+1714066661: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066721: Received PINGREQ from nodered_3b88b6998635caf4
+1714066721: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066781: Received PINGREQ from nodered_3b88b6998635caf4
+1714066781: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066841: Received PINGREQ from nodered_3b88b6998635caf4
+1714066841: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066901: Received PINGREQ from nodered_3b88b6998635caf4
+1714066901: Sending PINGRESP to nodered_3b88b6998635caf4
+1714066961: Received PINGREQ from nodered_3b88b6998635caf4
+1714066961: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067021: Received PINGREQ from nodered_3b88b6998635caf4
+1714067021: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067081: Received PINGREQ from nodered_3b88b6998635caf4
+1714067081: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067141: Received PINGREQ from nodered_3b88b6998635caf4
+1714067141: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067201: Received PINGREQ from nodered_3b88b6998635caf4
+1714067201: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067261: Received PINGREQ from nodered_3b88b6998635caf4
+1714067261: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067321: Received PINGREQ from nodered_3b88b6998635caf4
+1714067321: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067381: Received PINGREQ from nodered_3b88b6998635caf4
+1714067381: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067441: Received PINGREQ from nodered_3b88b6998635caf4
+1714067441: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067501: Received PINGREQ from nodered_3b88b6998635caf4
+1714067501: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067561: Received PINGREQ from nodered_3b88b6998635caf4
+1714067561: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067621: Received PINGREQ from nodered_3b88b6998635caf4
+1714067621: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067681: Received PINGREQ from nodered_3b88b6998635caf4
+1714067681: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067741: Received PINGREQ from nodered_3b88b6998635caf4
+1714067741: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067801: Received PINGREQ from nodered_3b88b6998635caf4
+1714067801: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067861: Received PINGREQ from nodered_3b88b6998635caf4
+1714067861: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067921: Received PINGREQ from nodered_3b88b6998635caf4
+1714067921: Sending PINGRESP to nodered_3b88b6998635caf4
+1714067981: Received PINGREQ from nodered_3b88b6998635caf4
+1714067981: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068003: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714068041: Received PINGREQ from nodered_3b88b6998635caf4
+1714068041: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068101: Received PINGREQ from nodered_3b88b6998635caf4
+1714068101: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068161: Received PINGREQ from nodered_3b88b6998635caf4
+1714068161: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068221: Received PINGREQ from nodered_3b88b6998635caf4
+1714068221: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068281: Received PINGREQ from nodered_3b88b6998635caf4
+1714068281: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068341: Received PINGREQ from nodered_3b88b6998635caf4
+1714068341: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068401: Received PINGREQ from nodered_3b88b6998635caf4
+1714068401: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068461: Received PINGREQ from nodered_3b88b6998635caf4
+1714068461: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068521: Received PINGREQ from nodered_3b88b6998635caf4
+1714068521: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068581: Received PINGREQ from nodered_3b88b6998635caf4
+1714068581: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068641: Received PINGREQ from nodered_3b88b6998635caf4
+1714068641: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068701: Received PINGREQ from nodered_3b88b6998635caf4
+1714068701: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068761: Received PINGREQ from nodered_3b88b6998635caf4
+1714068761: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068821: Received PINGREQ from nodered_3b88b6998635caf4
+1714068821: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068881: Received PINGREQ from nodered_3b88b6998635caf4
+1714068881: Sending PINGRESP to nodered_3b88b6998635caf4
+1714068941: Received PINGREQ from nodered_3b88b6998635caf4
+1714068941: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069001: Received PINGREQ from nodered_3b88b6998635caf4
+1714069001: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069061: Received PINGREQ from nodered_3b88b6998635caf4
+1714069061: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069121: Received PINGREQ from nodered_3b88b6998635caf4
+1714069121: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069181: Received PINGREQ from nodered_3b88b6998635caf4
+1714069181: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069241: Received PINGREQ from nodered_3b88b6998635caf4
+1714069241: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069301: Received PINGREQ from nodered_3b88b6998635caf4
+1714069301: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069361: Received PINGREQ from nodered_3b88b6998635caf4
+1714069361: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069421: Received PINGREQ from nodered_3b88b6998635caf4
+1714069421: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069481: Received PINGREQ from nodered_3b88b6998635caf4
+1714069481: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069541: Received PINGREQ from nodered_3b88b6998635caf4
+1714069541: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069601: Received PINGREQ from nodered_3b88b6998635caf4
+1714069601: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069661: Received PINGREQ from nodered_3b88b6998635caf4
+1714069661: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069721: Received PINGREQ from nodered_3b88b6998635caf4
+1714069721: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069781: Received PINGREQ from nodered_3b88b6998635caf4
+1714069781: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069804: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714069841: Received PINGREQ from nodered_3b88b6998635caf4
+1714069841: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069901: Received PINGREQ from nodered_3b88b6998635caf4
+1714069901: Sending PINGRESP to nodered_3b88b6998635caf4
+1714069961: Received PINGREQ from nodered_3b88b6998635caf4
+1714069961: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070021: Received PINGREQ from nodered_3b88b6998635caf4
+1714070021: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070081: Received PINGREQ from nodered_3b88b6998635caf4
+1714070081: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070141: Received PINGREQ from nodered_3b88b6998635caf4
+1714070141: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070201: Received PINGREQ from nodered_3b88b6998635caf4
+1714070201: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070261: Received PINGREQ from nodered_3b88b6998635caf4
+1714070261: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070321: Received PINGREQ from nodered_3b88b6998635caf4
+1714070321: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070381: Received PINGREQ from nodered_3b88b6998635caf4
+1714070381: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070441: Received PINGREQ from nodered_3b88b6998635caf4
+1714070441: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070501: Received PINGREQ from nodered_3b88b6998635caf4
+1714070501: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070561: Received PINGREQ from nodered_3b88b6998635caf4
+1714070561: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070621: Received PINGREQ from nodered_3b88b6998635caf4
+1714070621: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070681: Received PINGREQ from nodered_3b88b6998635caf4
+1714070681: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070741: Received PINGREQ from nodered_3b88b6998635caf4
+1714070741: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070801: Received PINGREQ from nodered_3b88b6998635caf4
+1714070801: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070861: Received PINGREQ from nodered_3b88b6998635caf4
+1714070861: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070921: Received PINGREQ from nodered_3b88b6998635caf4
+1714070921: Sending PINGRESP to nodered_3b88b6998635caf4
+1714070981: Received PINGREQ from nodered_3b88b6998635caf4
+1714070981: Sending PINGRESP to nodered_3b88b6998635caf4
+1714071041: Received PINGREQ from nodered_3b88b6998635caf4
+1714071041: Sending PINGRESP to nodered_3b88b6998635caf4
+1714071101: Received PINGREQ from nodered_3b88b6998635caf4
+1714071101: Sending PINGRESP to nodered_3b88b6998635caf4
+1714071161: Received PINGREQ from nodered_3b88b6998635caf4
+1714071161: Sending PINGRESP to nodered_3b88b6998635caf4
+1714071221: Received PINGREQ from nodered_3b88b6998635caf4
+1714071221: Sending PINGRESP to nodered_3b88b6998635caf4
+1714071281: Received PINGREQ from nodered_3b88b6998635caf4
+1714071281: Sending PINGRESP to nodered_3b88b6998635caf4
+1714071282: Received UNSUBSCRIBE from nodered_3b88b6998635caf4
+1714071282: 	temperature
+1714071282: nodered_3b88b6998635caf4 temperature
+1714071282: Sending UNSUBACK to nodered_3b88b6998635caf4
+1714071282: Received UNSUBSCRIBE from nodered_3b88b6998635caf4
+1714071282: 	humidity
+1714071282: nodered_3b88b6998635caf4 humidity
+1714071282: Sending UNSUBACK to nodered_3b88b6998635caf4
+1714071282: Received UNSUBSCRIBE from nodered_3b88b6998635caf4
+1714071282: 	pressure
+1714071282: nodered_3b88b6998635caf4 pressure
+1714071282: Sending UNSUBACK to nodered_3b88b6998635caf4
+1714071282: Received UNSUBSCRIBE from nodered_3b88b6998635caf4
+1714071282: 	ph
+1714071282: nodered_3b88b6998635caf4 ph
+1714071282: Sending UNSUBACK to nodered_3b88b6998635caf4
+1714071282: Received UNSUBSCRIBE from nodered_3b88b6998635caf4
+1714071282: 	lieght
+1714071282: nodered_3b88b6998635caf4 lieght
+1714071282: Sending UNSUBACK to nodered_3b88b6998635caf4
+1714071282: Received DISCONNECT from nodered_3b88b6998635caf4
+1714071282: Client nodered_3b88b6998635caf4 disconnected.
+1714071282: New connection from 192.168.192.3:37226 on port 1883.
+1714071282: New client connected from 192.168.192.3:37226 as nodered_62f8aecaba790333 (p2, c1, k60, u'root').
+1714071282: No will message specified.
+1714071282: Sending CONNACK to nodered_62f8aecaba790333 (0, 0)
+1714071283: Received SUBSCRIBE from nodered_62f8aecaba790333
+1714071283: 	temperature (QoS 2)
+1714071283: nodered_62f8aecaba790333 2 temperature
+1714071283: Sending SUBACK to nodered_62f8aecaba790333
+1714071283: Received SUBSCRIBE from nodered_62f8aecaba790333
+1714071283: 	humidity (QoS 2)
+1714071283: nodered_62f8aecaba790333 2 humidity
+1714071283: Sending SUBACK to nodered_62f8aecaba790333
+1714071283: Received SUBSCRIBE from nodered_62f8aecaba790333
+1714071283: 	pressure (QoS 2)
+1714071283: nodered_62f8aecaba790333 2 pressure
+1714071283: Sending SUBACK to nodered_62f8aecaba790333
+1714071283: Received SUBSCRIBE from nodered_62f8aecaba790333
+1714071283: 	ph (QoS 2)
+1714071283: nodered_62f8aecaba790333 2 ph
+1714071283: Sending SUBACK to nodered_62f8aecaba790333
+1714071283: Received SUBSCRIBE from nodered_62f8aecaba790333
+1714071283: 	lieght (QoS 2)
+1714071283: nodered_62f8aecaba790333 2 lieght
+1714071283: Sending SUBACK to nodered_62f8aecaba790333
+1714071343: Received PINGREQ from nodered_62f8aecaba790333
+1714071343: Sending PINGRESP to nodered_62f8aecaba790333
+1714071361: New connection from 192.168.192.4:53181 on port 1883.
+1714071361: New connection from 192.168.192.4:54997 on port 1883.
+1714071361: New connection from 192.168.192.4:48381 on port 1883.
+1714071361: New connection from 192.168.192.4:36807 on port 1883.
+1714071361: New connection from 192.168.192.4:58375 on port 1883.
+1714071361: New connection from 192.168.192.4:58031 on port 1883.
+1714071361: New client connected from 192.168.192.4:53181 as python-mqtt-pond-hum-pub-1 (p2, c1, k60).
+1714071361: No will message specified.
+1714071361: Sending CONNACK to python-mqtt-pond-hum-pub-1 (0, 0)
+1714071361: New client connected from 192.168.192.4:54997 as python-mqtt-pond-soilph-pub-1 (p2, c1, k60).
+1714071361: No will message specified.
+1714071361: Sending CONNACK to python-mqtt-pond-soilph-pub-1 (0, 0)
+1714071361: New client connected from 192.168.192.4:48381 as python-mqtt-pond-water-level-pub-1 (p2, c1, k60).
+1714071361: No will message specified.
+1714071361: Sending CONNACK to python-mqtt-pond-water-level-pub-1 (0, 0)
+1714071361: New client connected from 192.168.192.4:36807 as python-mqtt-pond-temp-pub-1 (p2, c1, k60).
+1714071361: No will message specified.
+1714071361: Sending CONNACK to python-mqtt-pond-temp-pub-1 (0, 0)
+1714071361: New client connected from 192.168.192.4:58375 as python-mqtt-pond-press-pub-1 (p2, c1, k60).
+1714071361: No will message specified.
+1714071361: Sending CONNACK to python-mqtt-pond-press-pub-1 (0, 0)
+1714071361: New client connected from 192.168.192.4:58031 as python-mqtt-pond-light-pub-1 (p2, c1, k60).
+1714071361: No will message specified.
+1714071361: Sending CONNACK to python-mqtt-pond-light-pub-1 (0, 0)
+1714071362: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m1, 'humidity', ... (5 bytes))
+1714071362: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m1, 'humidity', ... (5 bytes))
+1714071362: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m1, rc0)
+1714071362: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m1, 'water_level', ... (2 bytes))
+1714071362: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m1, rc0)
+1714071362: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m1, 'ph', ... (3 bytes))
+1714071362: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m2, 'ph', ... (3 bytes))
+1714071362: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m1, rc0)
+1714071362: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m1, 'temperature', ... (4 bytes))
+1714071362: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m3, 'temperature', ... (4 bytes))
+1714071362: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m1, rc0)
+1714071362: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m1, 'light', ... (7 bytes))
+1714071362: Sending PUBACK to python-mqtt-pond-light-pub-1 (m1, rc0)
+1714071362: Received PUBACK from nodered_62f8aecaba790333 (Mid: 1, RC:0)
+1714071362: Received PUBACK from nodered_62f8aecaba790333 (Mid: 2, RC:0)
+1714071362: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m1, 'pressure', ... (7 bytes))
+1714071362: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m4, 'pressure', ... (7 bytes))
+1714071362: Sending PUBACK to python-mqtt-pond-press-pub-1 (m1, rc0)
+1714071362: Received PUBACK from nodered_62f8aecaba790333 (Mid: 3, RC:0)
+1714071362: Received PUBACK from nodered_62f8aecaba790333 (Mid: 4, RC:0)
+1714071364: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m2, 'humidity', ... (5 bytes))
+1714071364: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m5, 'humidity', ... (5 bytes))
+1714071364: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m2, rc0)
+1714071364: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m2, 'ph', ... (3 bytes))
+1714071364: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m6, 'ph', ... (3 bytes))
+1714071364: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m2, rc0)
+1714071364: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m2, 'water_level', ... (2 bytes))
+1714071364: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m2, rc0)
+1714071364: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m2, 'light', ... (8 bytes))
+1714071364: Sending PUBACK to python-mqtt-pond-light-pub-1 (m2, rc0)
+1714071364: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m2, 'temperature', ... (5 bytes))
+1714071364: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m7, 'temperature', ... (5 bytes))
+1714071364: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m2, rc0)
+1714071364: Received PUBACK from nodered_62f8aecaba790333 (Mid: 5, RC:0)
+1714071364: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m2, 'pressure', ... (7 bytes))
+1714071364: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m8, 'pressure', ... (7 bytes))
+1714071364: Sending PUBACK to python-mqtt-pond-press-pub-1 (m2, rc0)
+1714071365: Received PUBACK from nodered_62f8aecaba790333 (Mid: 6, RC:0)
+1714071365: Received PUBACK from nodered_62f8aecaba790333 (Mid: 7, RC:0)
+1714071365: Received PUBACK from nodered_62f8aecaba790333 (Mid: 8, RC:0)
+1714071366: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m3, 'humidity', ... (3 bytes))
+1714071366: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m9, 'humidity', ... (3 bytes))
+1714071366: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m3, rc0)
+1714071366: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m3, 'ph', ... (3 bytes))
+1714071366: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m10, 'ph', ... (3 bytes))
+1714071366: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m3, rc0)
+1714071366: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m3, 'temperature', ... (5 bytes))
+1714071366: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m11, 'temperature', ... (5 bytes))
+1714071366: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m3, rc0)
+1714071366: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m3, 'water_level', ... (2 bytes))
+1714071366: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m3, rc0)
+1714071366: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m3, 'light', ... (8 bytes))
+1714071366: Sending PUBACK to python-mqtt-pond-light-pub-1 (m3, rc0)
+1714071366: Received PUBACK from nodered_62f8aecaba790333 (Mid: 9, RC:0)
+1714071366: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m3, 'pressure', ... (6 bytes))
+1714071366: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m12, 'pressure', ... (6 bytes))
+1714071366: Sending PUBACK to python-mqtt-pond-press-pub-1 (m3, rc0)
+1714071366: Received PUBACK from nodered_62f8aecaba790333 (Mid: 10, RC:0)
+1714071366: Received PUBACK from nodered_62f8aecaba790333 (Mid: 11, RC:0)
+1714071367: Received PUBACK from nodered_62f8aecaba790333 (Mid: 12, RC:0)
+1714071368: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m4, 'humidity', ... (5 bytes))
+1714071368: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m13, 'humidity', ... (5 bytes))
+1714071368: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m4, rc0)
+1714071368: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m4, 'ph', ... (4 bytes))
+1714071368: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m14, 'ph', ... (4 bytes))
+1714071368: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m4, rc0)
+1714071368: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m4, 'temperature', ... (5 bytes))
+1714071368: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m15, 'temperature', ... (5 bytes))
+1714071368: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m4, rc0)
+1714071368: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m4, 'water_level', ... (2 bytes))
+1714071368: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m4, rc0)
+1714071368: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m4, 'light', ... (8 bytes))
+1714071368: Sending PUBACK to python-mqtt-pond-light-pub-1 (m4, rc0)
+1714071368: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m4, 'pressure', ... (6 bytes))
+1714071368: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m16, 'pressure', ... (6 bytes))
+1714071368: Sending PUBACK to python-mqtt-pond-press-pub-1 (m4, rc0)
+1714071368: Received PUBACK from nodered_62f8aecaba790333 (Mid: 13, RC:0)
+1714071369: Received PUBACK from nodered_62f8aecaba790333 (Mid: 14, RC:0)
+1714071369: Received PUBACK from nodered_62f8aecaba790333 (Mid: 15, RC:0)
+1714071369: Received PUBACK from nodered_62f8aecaba790333 (Mid: 16, RC:0)
+1714071370: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m5, 'humidity', ... (5 bytes))
+1714071370: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m17, 'humidity', ... (5 bytes))
+1714071370: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m5, rc0)
+1714071370: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m5, 'ph', ... (3 bytes))
+1714071370: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m18, 'ph', ... (3 bytes))
+1714071370: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m5, rc0)
+1714071370: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m5, 'temperature', ... (5 bytes))
+1714071370: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m19, 'temperature', ... (5 bytes))
+1714071370: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m5, rc0)
+1714071370: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m5, 'water_level', ... (2 bytes))
+1714071370: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m5, rc0)
+1714071370: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m5, 'light', ... (8 bytes))
+1714071370: Sending PUBACK to python-mqtt-pond-light-pub-1 (m5, rc0)
+1714071370: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m5, 'pressure', ... (6 bytes))
+1714071370: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m20, 'pressure', ... (6 bytes))
+1714071370: Sending PUBACK to python-mqtt-pond-press-pub-1 (m5, rc0)
+1714071370: Received PUBACK from nodered_62f8aecaba790333 (Mid: 17, RC:0)
+1714071371: Received PUBACK from nodered_62f8aecaba790333 (Mid: 18, RC:0)
+1714071371: Received PUBACK from nodered_62f8aecaba790333 (Mid: 19, RC:0)
+1714071371: Received PUBACK from nodered_62f8aecaba790333 (Mid: 20, RC:0)
+1714071372: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m6, 'ph', ... (4 bytes))
+1714071372: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m21, 'ph', ... (4 bytes))
+1714071372: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m6, rc0)
+1714071372: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m6, 'humidity', ... (5 bytes))
+1714071372: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m22, 'humidity', ... (5 bytes))
+1714071372: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m6, rc0)
+1714071372: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m6, 'water_level', ... (1 bytes))
+1714071372: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m6, rc0)
+1714071372: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m6, 'temperature', ... (5 bytes))
+1714071372: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m23, 'temperature', ... (5 bytes))
+1714071372: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m6, rc0)
+1714071372: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m6, 'light', ... (8 bytes))
+1714071372: Sending PUBACK to python-mqtt-pond-light-pub-1 (m6, rc0)
+1714071372: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m6, 'pressure', ... (7 bytes))
+1714071372: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m24, 'pressure', ... (7 bytes))
+1714071372: Sending PUBACK to python-mqtt-pond-press-pub-1 (m6, rc0)
+1714071372: Received PUBACK from nodered_62f8aecaba790333 (Mid: 21, RC:0)
+1714071373: Received PUBACK from nodered_62f8aecaba790333 (Mid: 22, RC:0)
+1714071373: Received PUBACK from nodered_62f8aecaba790333 (Mid: 23, RC:0)
+1714071373: Received PUBACK from nodered_62f8aecaba790333 (Mid: 24, RC:0)
+1714071374: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m7, 'humidity', ... (5 bytes))
+1714071374: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m25, 'humidity', ... (5 bytes))
+1714071374: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m7, rc0)
+1714071374: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m7, 'ph', ... (3 bytes))
+1714071374: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m26, 'ph', ... (3 bytes))
+1714071374: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m7, rc0)
+1714071374: Received PUBACK from nodered_62f8aecaba790333 (Mid: 25, RC:0)
+1714071374: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m7, 'water_level', ... (1 bytes))
+1714071374: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m7, rc0)
+1714071374: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m7, 'temperature', ... (4 bytes))
+1714071374: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m27, 'temperature', ... (4 bytes))
+1714071374: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m7, rc0)
+1714071374: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m7, 'light', ... (8 bytes))
+1714071374: Sending PUBACK to python-mqtt-pond-light-pub-1 (m7, rc0)
+1714071375: Received PUBACK from nodered_62f8aecaba790333 (Mid: 26, RC:0)
+1714071375: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m7, 'pressure', ... (6 bytes))
+1714071375: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m28, 'pressure', ... (6 bytes))
+1714071375: Sending PUBACK to python-mqtt-pond-press-pub-1 (m7, rc0)
+1714071375: Received PUBACK from nodered_62f8aecaba790333 (Mid: 27, RC:0)
+1714071375: Received PUBACK from nodered_62f8aecaba790333 (Mid: 28, RC:0)
+1714071376: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m8, 'ph', ... (3 bytes))
+1714071376: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m29, 'ph', ... (3 bytes))
+1714071376: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m8, rc0)
+1714071376: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m8, 'humidity', ... (5 bytes))
+1714071376: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m30, 'humidity', ... (5 bytes))
+1714071376: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m8, rc0)
+1714071376: Received PUBACK from nodered_62f8aecaba790333 (Mid: 29, RC:0)
+1714071376: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m8, 'water_level', ... (2 bytes))
+1714071376: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m8, rc0)
+1714071376: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m8, 'temperature', ... (4 bytes))
+1714071376: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m31, 'temperature', ... (4 bytes))
+1714071376: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m8, rc0)
+1714071376: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m8, 'light', ... (8 bytes))
+1714071376: Sending PUBACK to python-mqtt-pond-light-pub-1 (m8, rc0)
+1714071376: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m8, 'pressure', ... (6 bytes))
+1714071376: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m32, 'pressure', ... (6 bytes))
+1714071376: Sending PUBACK to python-mqtt-pond-press-pub-1 (m8, rc0)
+1714071377: Received PUBACK from nodered_62f8aecaba790333 (Mid: 30, RC:0)
+1714071377: Received PUBACK from nodered_62f8aecaba790333 (Mid: 31, RC:0)
+1714071377: Received PUBACK from nodered_62f8aecaba790333 (Mid: 32, RC:0)
+1714071378: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m9, 'humidity', ... (5 bytes))
+1714071378: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m33, 'humidity', ... (5 bytes))
+1714071378: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m9, rc0)
+1714071378: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m9, 'ph', ... (3 bytes))
+1714071378: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m34, 'ph', ... (3 bytes))
+1714071378: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m9, rc0)
+1714071378: Received PUBACK from nodered_62f8aecaba790333 (Mid: 33, RC:0)
+1714071378: Received PUBACK from nodered_62f8aecaba790333 (Mid: 34, RC:0)
+1714071378: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m9, 'water_level', ... (2 bytes))
+1714071378: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m9, rc0)
+1714071378: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m9, 'temperature', ... (5 bytes))
+1714071378: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m35, 'temperature', ... (5 bytes))
+1714071378: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m9, rc0)
+1714071378: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m9, 'light', ... (8 bytes))
+1714071378: Sending PUBACK to python-mqtt-pond-light-pub-1 (m9, rc0)
+1714071378: Received PUBACK from nodered_62f8aecaba790333 (Mid: 35, RC:0)
+1714071378: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m9, 'pressure', ... (6 bytes))
+1714071378: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m36, 'pressure', ... (6 bytes))
+1714071378: Sending PUBACK to python-mqtt-pond-press-pub-1 (m9, rc0)
+1714071378: Received PUBACK from nodered_62f8aecaba790333 (Mid: 36, RC:0)
+1714071380: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m10, 'humidity', ... (5 bytes))
+1714071380: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m37, 'humidity', ... (5 bytes))
+1714071380: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m10, rc0)
+1714071380: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m10, 'ph', ... (3 bytes))
+1714071380: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m38, 'ph', ... (3 bytes))
+1714071380: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m10, rc0)
+1714071380: Received PUBACK from nodered_62f8aecaba790333 (Mid: 37, RC:0)
+1714071380: Received PUBACK from nodered_62f8aecaba790333 (Mid: 38, RC:0)
+1714071380: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m10, 'water_level', ... (2 bytes))
+1714071380: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m10, rc0)
+1714071380: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m10, 'temperature', ... (5 bytes))
+1714071380: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m39, 'temperature', ... (5 bytes))
+1714071380: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m10, rc0)
+1714071380: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m10, 'light', ... (8 bytes))
+1714071380: Sending PUBACK to python-mqtt-pond-light-pub-1 (m10, rc0)
+1714071380: Received PUBACK from nodered_62f8aecaba790333 (Mid: 39, RC:0)
+1714071380: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m10, 'pressure', ... (6 bytes))
+1714071380: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m40, 'pressure', ... (6 bytes))
+1714071380: Sending PUBACK to python-mqtt-pond-press-pub-1 (m10, rc0)
+1714071381: Received PUBACK from nodered_62f8aecaba790333 (Mid: 40, RC:0)
+1714071382: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m11, 'humidity', ... (4 bytes))
+1714071382: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m41, 'humidity', ... (4 bytes))
+1714071382: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m11, rc0)
+1714071382: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m11, 'ph', ... (3 bytes))
+1714071382: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m42, 'ph', ... (3 bytes))
+1714071382: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m11, rc0)
+1714071382: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m11, 'water_level', ... (2 bytes))
+1714071382: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m11, rc0)
+1714071382: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m11, 'temperature', ... (5 bytes))
+1714071382: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m43, 'temperature', ... (5 bytes))
+1714071382: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m11, rc0)
+1714071382: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m11, 'light', ... (8 bytes))
+1714071382: Sending PUBACK to python-mqtt-pond-light-pub-1 (m11, rc0)
+1714071382: Received PUBACK from nodered_62f8aecaba790333 (Mid: 41, RC:0)
+1714071382: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m11, 'pressure', ... (6 bytes))
+1714071382: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m44, 'pressure', ... (6 bytes))
+1714071382: Sending PUBACK to python-mqtt-pond-press-pub-1 (m11, rc0)
+1714071382: Received PUBACK from nodered_62f8aecaba790333 (Mid: 42, RC:0)
+1714071383: Received PUBACK from nodered_62f8aecaba790333 (Mid: 43, RC:0)
+1714071383: Received PUBACK from nodered_62f8aecaba790333 (Mid: 44, RC:0)
+1714071384: Received PUBLISH from python-mqtt-pond-soilph-pub-1 (d0, q1, r0, m12, 'ph', ... (3 bytes))
+1714071384: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m45, 'ph', ... (3 bytes))
+1714071384: Sending PUBACK to python-mqtt-pond-soilph-pub-1 (m12, rc0)
+1714071384: Received PUBLISH from python-mqtt-pond-hum-pub-1 (d0, q1, r0, m12, 'humidity', ... (5 bytes))
+1714071384: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m46, 'humidity', ... (5 bytes))
+1714071384: Sending PUBACK to python-mqtt-pond-hum-pub-1 (m12, rc0)
+1714071384: Client python-mqtt-pond-soilph-pub-1 closed its connection.
+1714071384: Received PUBACK from nodered_62f8aecaba790333 (Mid: 45, RC:0)
+1714071384: Received PUBLISH from python-mqtt-pond-water-level-pub-1 (d0, q1, r0, m12, 'water_level', ... (2 bytes))
+1714071384: Sending PUBACK to python-mqtt-pond-water-level-pub-1 (m12, rc0)
+1714071384: Received PUBLISH from python-mqtt-pond-temp-pub-1 (d0, q1, r0, m12, 'temperature', ... (4 bytes))
+1714071384: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m47, 'temperature', ... (4 bytes))
+1714071384: Sending PUBACK to python-mqtt-pond-temp-pub-1 (m12, rc0)
+1714071384: Received PUBLISH from python-mqtt-pond-light-pub-1 (d0, q1, r0, m12, 'light', ... (8 bytes))
+1714071384: Sending PUBACK to python-mqtt-pond-light-pub-1 (m12, rc0)
+1714071384: Received PUBACK from nodered_62f8aecaba790333 (Mid: 46, RC:0)
+1714071384: Client python-mqtt-pond-water-level-pub-1 closed its connection.
+1714071384: Client python-mqtt-pond-temp-pub-1 closed its connection.
+1714071384: Client python-mqtt-pond-hum-pub-1 closed its connection.
+1714071384: Received PUBLISH from python-mqtt-pond-press-pub-1 (d0, q1, r0, m12, 'pressure', ... (6 bytes))
+1714071384: Sending PUBLISH to nodered_62f8aecaba790333 (d0, q1, r0, m48, 'pressure', ... (6 bytes))
+1714071384: Sending PUBACK to python-mqtt-pond-press-pub-1 (m12, rc0)
+1714071384: Received PUBACK from nodered_62f8aecaba790333 (Mid: 47, RC:0)
+1714071384: Client python-mqtt-pond-light-pub-1 closed its connection.
+1714071385: Received PUBACK from nodered_62f8aecaba790333 (Mid: 48, RC:0)
+1714071385: Client python-mqtt-pond-press-pub-1 closed its connection.
+1714071444: Received PINGREQ from nodered_62f8aecaba790333
+1714071444: Sending PINGRESP to nodered_62f8aecaba790333
+1714071504: Received PINGREQ from nodered_62f8aecaba790333
+1714071504: Sending PINGRESP to nodered_62f8aecaba790333
+1714071564: Received PINGREQ from nodered_62f8aecaba790333
+1714071564: Sending PINGRESP to nodered_62f8aecaba790333
+1714071605: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1714071624: Received PINGREQ from nodered_62f8aecaba790333
+1714071624: Sending PINGRESP to nodered_62f8aecaba790333
+1714071684: Received PINGREQ from nodered_62f8aecaba790333
+1714071684: Sending PINGRESP to nodered_62f8aecaba790333
+1714071744: Received PINGREQ from nodered_62f8aecaba790333
+1714071744: Sending PINGRESP to nodered_62f8aecaba790333
+1714071804: Received PINGREQ from nodered_62f8aecaba790333
+1714071804: Sending PINGRESP to nodered_62f8aecaba790333
+1714071864: Received PINGREQ from nodered_62f8aecaba790333
+1714071864: Sending PINGRESP to nodered_62f8aecaba790333
+1714071924: Received PINGREQ from nodered_62f8aecaba790333
+1714071924: Sending PINGRESP to nodered_62f8aecaba790333
+1714071984: Received PINGREQ from nodered_62f8aecaba790333
+1714071984: Sending PINGRESP to nodered_62f8aecaba790333
+1714072044: Received PINGREQ from nodered_62f8aecaba790333
+1714072044: Sending PINGRESP to nodered_62f8aecaba790333
+1714072104: Received PINGREQ from nodered_62f8aecaba790333
+1714072104: Sending PINGRESP to nodered_62f8aecaba790333
+1714072164: Received PINGREQ from nodered_62f8aecaba790333
+1714072164: Sending PINGRESP to nodered_62f8aecaba790333
+1714072224: Received PINGREQ from nodered_62f8aecaba790333
+1714072224: Sending PINGRESP to nodered_62f8aecaba790333
+1714072284: Received PINGREQ from nodered_62f8aecaba790333
+1714072284: Sending PINGRESP to nodered_62f8aecaba790333
+1714072344: Received PINGREQ from nodered_62f8aecaba790333
+1714072344: Sending PINGRESP to nodered_62f8aecaba790333
+1714072404: Received PINGREQ from nodered_62f8aecaba790333
+1714072404: Sending PINGRESP to nodered_62f8aecaba790333
+1714072464: Received PINGREQ from nodered_62f8aecaba790333
+1714072464: Sending PINGRESP to nodered_62f8aecaba790333
+1714072524: Received PINGREQ from nodered_62f8aecaba790333
+1714072524: Sending PINGRESP to nodered_62f8aecaba790333
+1714072562: Received UNSUBSCRIBE from nodered_62f8aecaba790333
+1714072562: 	temperature
+1714072562: nodered_62f8aecaba790333 temperature
+1714072562: Sending UNSUBACK to nodered_62f8aecaba790333
+1714072562: Received UNSUBSCRIBE from nodered_62f8aecaba790333
+1714072562: 	humidity
+1714072562: nodered_62f8aecaba790333 humidity
+1714072562: Sending UNSUBACK to nodered_62f8aecaba790333
+1714072562: Received UNSUBSCRIBE from nodered_62f8aecaba790333
+1714072562: 	pressure
+1714072562: nodered_62f8aecaba790333 pressure
+1714072562: Sending UNSUBACK to nodered_62f8aecaba790333
+1714072562: Received UNSUBSCRIBE from nodered_62f8aecaba790333
+1714072562: 	ph
+1714072562: nodered_62f8aecaba790333 ph
+1714072562: Sending UNSUBACK to nodered_62f8aecaba790333
+1714072562: Received UNSUBSCRIBE from nodered_62f8aecaba790333
+1714072562: 	lieght
+1714072562: nodered_62f8aecaba790333 lieght
+1714072562: Sending UNSUBACK to nodered_62f8aecaba790333
+1714072562: Received DISCONNECT from nodered_62f8aecaba790333
+1714072562: Client nodered_62f8aecaba790333 disconnected.
+1714072565: mosquitto version 2.0.18 terminating
+1714072565: Saving in-memory database to /mosquitto/data//mosquitto.db.
